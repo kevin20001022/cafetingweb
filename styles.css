@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    z-index: 1000;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.coffee-point {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #00B386;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.background-points {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.main-content {
+    opacity: 0;
+    transition: opacity 1s ease;
+    position: relative;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.95));
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #00B386, transparent);
+}
+
+.logo {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #00B386;
+    margin-bottom: 2rem;
+    position: relative;
+    text-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #00B386;
+    border-radius: 2px;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+}
+
+.cta-button {
+    padding: 1.2rem 2.5rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: #00B386;
+    border: 2px solid #00B386;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-button:hover {
+    background-color: #00B386;
+    color: white;
+    box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+}
+
+.features-section {
+    padding: 4rem 2rem;
+    background-color: #121212;
+}
+
+.feature-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature {
+    margin-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.feature::before {
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #00B386, transparent);
+}
+
+.feature:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.feature-text {
+    flex: 1;
+}
+
+.feature-image {
+    flex: 1;
+    height: 600px;
+    background-color: #121212;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-image::before {
+    content: none;
+}
+
+.feature-title {
+    font-size: 2.5rem;
+    color: #00B386;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.feature-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #00B386;
+}
+
+.feature-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+/* 页脚样式 */
+.footer {
+    padding: 2rem 0;
+    background-color: #0a0a0a;
+    border-top: 1px solid rgba(76, 175, 80, 0.1);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link, .footer-email-link {
+    color: #888;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover, .footer-email-link:hover {
+    color: #00B386;
+}
+
+.footer-divider {
+    color: #444;
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
+}
+
+.footer-email-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #00B386;
+    border-radius: 50%;
+    color: #00B386;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.footer-email-link:hover {
+    background-color: #00B386;
+    color: white;
+}
+
+.footer-copyright {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00B386;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column !important;
+        gap: 2rem;
+    }
+
+    .feature-image {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        position: relative;
+    }
+
+    .feature-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.bg-point {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #00B386;
+    border-radius: 50%;
+    opacity: 0.3;
+    animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.3; }
+    50% { transform: scale(1.5); opacity: 0.5; }
+    100% { transform: scale(1); opacity: 0.3; }
+}
+
+.feature.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 在現有的樣式後添加以下內容 */
+
+.privacy-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 2rem;
+    background: rgba(26, 26, 26, 0.8);
+    border-radius: 20px;
+    border: 1px solid rgba(76, 175, 80, 0.2);
+    line-height: 1.8;
+    color: #e0e0e0;
+}
+
+.privacy-container h1 {
+    color: #00B386;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.privacy-container h2 {
+    color: #00B386;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.privacy-container h3 {
+    color: #81C784;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.privacy-container h4 {
+    color: #A5D6A7;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.privacy-container p {
+    margin-bottom: 1.2rem;
+}
+
+.privacy-container ul {
+    margin-bottom: 1.2rem;
+    padding-left: 2rem;
+}
+
+.privacy-container li {
+    margin-bottom: 0.8rem;
+}
+
+.privacy-container a {
+    color: #00B386;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.privacy-container a:hover {
+    color: #81C784;
+    text-decoration: underline;
+}
+
+/* 回到主頁按鈕樣式 */
+.back-to-home {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.back-to-home-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #1b1b1b;
+    color: #ffffff; /* 確保文字顏色為白色 */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #00B386;
+    font-weight: bold; /* 加粗文字 */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* 添加文字陰影 */
+}
+
+.back-to-home-button:hover {
+    background-color: transparent;
+    color: #00B386;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
