@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="mapstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
-    <script src="config.js"></script>
 </head>
 <body>
     <div class="map-container">
@@ -19,6 +18,12 @@
         </div>
         <div id="map"></div>
     </div>
+
+    <script>
+        const config = {
+            googleMapsApiKey: 'AIzaSyAGC0-g81hCy9S2w8c9pbIwqccbaw75dNQ'
+        };
+    </script>
 
     <script>
         window.initMap = function() {
