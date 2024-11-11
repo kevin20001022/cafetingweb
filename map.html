@@ -26,42 +26,47 @@
         </div>
         <div class="filter-panel" id="filter-panel">
             <div class="filters">
-                <select id="outlet-filter">
-                    <option value="">插座需求</option>
-                    <option value="插座充足">插座充足</option>
-                    <option value="部分區域有插座">部分區域有插座</option>
-                    <option value="插座數量有限">插座數量有限</option>
-                </select>
-                <select id="noise-filter">
-                    <option value="">安靜程度</option>
-                    <option value="安靜環境">安靜環境</option>
-                    <option value="音量適中">音量適中</option>
-                    <option value="有些吵雜">有些吵雜</option>
-                </select>
-                <select id="time-filter">
-                    <option value="">時間限制</option>
-                    <option value="無時間限制">無時間限制</option>
-                    <option value="客滿才限時">客滿才限時</option>
-                    <option value="有時間限制">有時間限制</option>
-                </select>
-                <select id="lighting-filter">
-                    <option value="">光線程度</option>
-                    <option value="光線明亮">光線明亮</option>
-                    <option value="光線柔和">光線柔和</option>
-                    <option value="光線昏暗">光線昏暗</option>
-                </select>
-                <select id="seating-filter">
-                    <option value="">座位狀況</option>
-                    <option value="經常有空位">經常有空位</option>
-                    <option value="偶爾需要等待">偶爾需要等待</option>
-                </select>
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <i class="fas fa-plug filter-icon" data-filter="outlets" data-value="全部"></i>
+                        <div class="filter-value" id="outlets-value">全部</div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <i class="fas fa-volume-up filter-icon" data-filter="noise" data-value="全部"></i>
+                        <div class="filter-value" id="noise-value">全部</div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <i class="fas fa-hourglass-half filter-icon" data-filter="timeLimit" data-value="全部"></i>
+                        <div class="filter-value" id="timeLimit-value">全部</div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <i class="fas fa-sun filter-icon" data-filter="lighting" data-value="全部"></i>
+                        <div class="filter-value" id="lighting-value">全部</div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-header">
+                        <i class="fas fa-chair filter-icon" data-filter="seating" data-value="全部"></i>
+                        <div class="filter-value" id="seating-value">全部</div>
+                    </div>
+                </div>
             </div>
             <div class="filter-buttons">
                 <button id="filter-search-button" class="filter-button">
-                    <i class="fas fa-filter"></i> 套用篩選
+                    <i class="fas fa-filter"></i> 篩選
                 </button>
                 <button id="reset-button" class="filter-button reset">
-                    <i class="fas fa-undo"></i> 重置
+                    <i class="fas fa-undo"></i> 重設
                 </button>
             </div>
         </div>
@@ -339,24 +344,125 @@
                 }
             }
 
+            // 修改圖示點擊事件
+            document.querySelectorAll('.icon-option').forEach(icon => {
+                icon.addEventListener('click', function() {
+                    const filterType = this.dataset.filter;
+                    const filterValue = this.dataset.value;
+                    const valueDisplay = document.getElementById(`${filterType}-value`);
+                    const mainIcon = this.closest('.filter-header').querySelector('.filter-main-icon');
+                    
+                    // 更新顯示的文字
+                    valueDisplay.textContent = filterValue;
+                    
+                    // 更新主要圖示的顏色
+                    mainIcon.style.color = this.style.color || 'rgba(255, 255, 255, 0.7)';
+                    
+                    // 移除同組其他圖示的選中狀態
+                    document.querySelectorAll(`.icon-option[data-filter="${filterType}"]`).forEach(opt => {
+                        opt.classList.remove('selected');
+                    });
+                    
+                    // 切換當前圖示的選中狀態
+                    this.classList.toggle('selected');
+                });
+            });
+
+            // 定義篩選選項的狀態映射
+            const filterStates = {
+                outlets: [
+                    { value: '全部', icon: 'fa-plug', color: 'rgba(255, 255, 255, 0.7)' },
+                    { value: '插座充足', icon: 'fa-plug', color: '#4CAF50' },
+                    { value: '部分區域有插座', icon: 'fa-plug', color: '#FFC107' },
+                    { value: '插座數量有限', icon: 'fa-plug', color: '#F44336' }
+                ],
+                noise: [
+                    { value: '全部', icon: 'fa-volume-up', color: 'rgba(255, 255, 255, 0.7)' },
+                    { value: '安靜環境', icon: 'fa-volume-off', color: '#4CAF50' },
+                    { value: '音量適中', icon: 'fa-volume-down', color: '#FFC107' },
+                    { value: '有些吵雜', icon: 'fa-volume-up', color: '#F44336' }
+                ],
+                timeLimit: [
+                    { value: '全部', icon: 'fa-hourglass-half', color: 'rgba(255, 255, 255, 0.7)' },
+                    { value: '無時間限制', icon: 'fa-hourglass-half', color: '#4CAF50' },
+                    { value: '客滿才限時', icon: 'fa-hourglass-half', color: '#FFC107' },
+                    { value: '有時間限制', icon: 'fa-hourglass-half', color: '#F44336' }
+                ],
+                lighting: [
+                    { value: '全部', icon: 'fa-sun', color: 'rgba(255, 255, 255, 0.7)' },
+                    { value: '光線明亮', icon: 'fa-sun', color: '#4CAF50' },
+                    { value: '光線柔和', icon: 'fa-cloud-sun', color: '#FFC107' },
+                    { value: '光線昏暗', icon: 'fa-moon', color: '#F44336' }
+                ],
+                seating: [
+                    { value: '全部', icon: 'fa-chair', color: 'rgba(255, 255, 255, 0.7)' },
+                    { value: '經常有空位', icon: 'fa-chair', color: '#4CAF50' },
+                    { value: '偶爾需要等待', icon: 'fa-chair', color: '#F44336' }
+                ]
+            };
+
+            // 添加點擊事件
+            document.querySelectorAll('.filter-header').forEach(header => {
+                header.addEventListener('click', function() {
+                    const icon = this.querySelector('.filter-icon');
+                    const filterType = icon.dataset.filter;
+                    const currentValue = icon.dataset.value;
+                    const valueDisplay = this.querySelector('.filter-value');
+                    
+                    // 找到當前狀態在陣列中的索引
+                    const states = filterStates[filterType];
+                    const currentIndex = states.findIndex(state => state.value === currentValue);
+                    // 計算下一個狀態的索引
+                    const nextIndex = (currentIndex + 1) % states.length;
+                    const nextState = states[nextIndex];
+                    
+                    // 更新圖示和值
+                    icon.className = `fas ${nextState.icon} filter-icon`;
+                    icon.style.color = nextState.color;
+                    icon.dataset.value = nextState.value;
+                    valueDisplay.textContent = nextState.value;
+                });
+            });
+
+            // 修改重設函數
+            function resetFilters() {
+                document.querySelectorAll('.filter-icon').forEach(icon => {
+                    const filterType = icon.dataset.filter;
+                    const defaultState = filterStates[filterType][0];
+                    
+                    icon.className = `fas ${defaultState.icon} filter-icon`;
+                    icon.style.color = defaultState.color;
+                    icon.dataset.value = defaultState.value;
+                    
+                    const valueDisplay = icon.closest('.filter-header').querySelector('.filter-value');
+                    valueDisplay.textContent = defaultState.value;
+                });
+                
+                allMarkers.forEach(marker => marker.setVisible(true));
+                updateMarkerCluster(allMarkers);
+            }
+
+            // 修改篩選搜尋函數
             function filterSearch() {
-                const outletValue = document.getElementById('outlet-filter').value;
-                const noiseValue = document.getElementById('noise-filter').value;
-                const timeValue = document.getElementById('time-filter').value;
-                const lightingValue = document.getElementById('lighting-filter').value;
-                const seatingValue = document.getElementById('seating-filter').value;
+                const filters = {};
+                document.querySelectorAll('.filter-value').forEach(value => {
+                    const filterType = value.id.replace('-value', '');
+                    const filterValue = value.textContent;
+                    if (filterValue !== '全部') {
+                        filters[filterType] = filterValue;
+                    }
+                });
 
                 const visibleMarkers = [];
-
                 allMarkers.forEach(marker => {
                     const cafe = marker.cafe;
                     let isVisible = true;
 
-                    if (outletValue && cafe.outlets !== outletValue) isVisible = false;
-                    if (noiseValue && cafe.noise !== noiseValue) isVisible = false;
-                    if (timeValue && cafe.timeLimit !== timeValue) isVisible = false;
-                    if (lightingValue && cafe.lighting !== lightingValue) isVisible = false;
-                    if (seatingValue && cafe.seating !== seatingValue) isVisible = false;
+                    Object.keys(filters).forEach(key => {
+                        if (filters[key] && cafe[key] !== filters[key]) {
+                            isVisible = false;
+                        }
+                    });
 
                     marker.setVisible(isVisible);
                     if (isVisible) {
@@ -365,20 +471,6 @@
                 });
 
                 updateMarkerCluster(visibleMarkers);
-            }
-
-            function resetFilters() {
-                // 重置所有選擇
-                document.getElementById('search-input').value = '';
-                document.getElementById('outlet-filter').value = '';
-                document.getElementById('noise-filter').value = '';
-                document.getElementById('time-filter').value = '';
-                document.getElementById('lighting-filter').value = '';
-                document.getElementById('seating-filter').value = '';
-
-                // 顯示所有標記
-                allMarkers.forEach(marker => marker.setVisible(true));
-                updateMarkerCluster(allMarkers);
             }
 
             function updateMarkerCluster(markers) {
@@ -423,7 +515,7 @@
                             }
                         });
 
-                        marker.cafe = cafe;  // 保存咖啡廳��據
+                        marker.cafe = cafe;  // 保存咖啡廳據
                         allMarkers.push(marker);
 
                         const infoContent = `
@@ -485,7 +577,7 @@
                             disableAutoPan: false
                         });
 
-                        // 自定義 Info Window 樣式
+                        // 自定 Info Window 樣式
                         const infoWindowStyles = `
                             .gm-style-iw {
                                 padding: 0 !important;
@@ -577,6 +669,21 @@
                 filterPanel.classList.contains('show')) {
                 filterPanel.classList.remove('show');
             }
+        });
+
+        // 添加圖示點擊事件
+        document.querySelectorAll('.icon-option').forEach(icon => {
+            icon.addEventListener('click', function() {
+                const filterType = this.dataset.filter;
+                
+                // 移除同組其他圖示的選中狀態
+                document.querySelectorAll(`.icon-option[data-filter="${filterType}"]`).forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                
+                // 切換當前圖示的選中狀態
+                this.classList.toggle('selected');
+            });
         });
     </script>
 </body>

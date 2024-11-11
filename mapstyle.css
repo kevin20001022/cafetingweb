@@ -459,7 +459,7 @@
     padding: 20px;
     border-radius: 16px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    width: 380px;
     transform: translateX(120%);
     transition: transform 0.3s ease;
 }
@@ -468,18 +468,67 @@
     transform: translateX(0);
 }
 
-/* 下拉選單樣式 */
-.filters select option {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: rgba(255, 255, 255, 0.8);
-    padding: 8px;
+.filter-group {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* 選項樣式 */
-.filters select option {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: rgba(255, 255, 255, 0.8);
+.filter-group:last-child {
+    border-bottom: none;
+}
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.filter-icon {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 15px;
+}
+
+.filter-value {
+    flex: 1;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+.filter-group:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.filter-icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.9);
     padding: 8px;
+    border-radius: 8px;
+    gap: 10px;
+    z-index: 1;
+}
+
+.filter-header:hover .filter-icons {
+    display: flex;
+}
+
+.icon-option {
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-option[data-value="全部"] {
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* Google Maps Info Window 自義樣式 */
@@ -549,5 +598,143 @@
     overflow: hidden !important;
     padding: 0 !important;
     max-width: none !important;
+}
+
+/* 滑動條容器樣式 */
+.filter-slider-container {
+    padding: 0 10px;
+    margin-top: 8px;
+}
+
+/* 滑動條基本樣式 */
+.filter-slider {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    outline: none;
+    -webkit-appearance: none;
+    margin: 15px 0;
+}
+
+/* 滑動條滑塊樣式 */
+.filter-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #00b386;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.filter-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+    background: #00cc99;
+}
+
+/* 滑動條標籤樣式 */
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 0 2px;
+}
+
+.slider-labels span {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    flex: 1;
+}
+
+.slider-labels.binary {
+    justify-content: space-between;
+}
+
+.slider-labels.binary span {
+    flex: 0 0 auto;
+}
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.filter-title {
+    flex: 0 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    font-weight: 500;
+    min-width: 80px;
+}
+
+.filter-slider-container {
+    flex: 1;
+    padding: 0 5px;
+}
+
+/* 滑動條基本樣式 */
+.filter-slider {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    outline: none;
+    -webkit-appearance: none;
+    margin: 10px 0;
+}
+
+.slider-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 0 2px;
+}
+
+.slider-icons i {
+    font-size: 0.9rem;
+}
+
+.filter-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icon-option {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.icon-option:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.icon-option.selected {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.filter-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    font-weight: 500;
 }
   
