@@ -74,36 +74,39 @@ body {
 }
 
 .logo {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #00B386;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     position: relative;
-    text-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+    text-shadow: 0 0 20px rgba(76, 175, 80, 0.2);
 }
 
 .logo::after {
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
     left: 50%;
     transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
+    width: 50px;
+    height: 2px;
     background-color: #00B386;
     border-radius: 2px;
 }
 
 .tagline {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-bottom: 2rem;
     color: #e0e0e0;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .cta-button {
-    padding: 1.2rem 2.5rem;
-    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
     background-color: transparent;
     color: #00B386;
     border: 2px solid #00B386;
@@ -432,6 +435,7 @@ body {
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin-top: 0.5rem;
 }
 
 .web-map-button {
