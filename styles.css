@@ -323,7 +323,7 @@ body {
     background-color: #00B386;
     border-radius: 50%;
     opacity: 0.3;
-    animation: pulse 4s infinite;
+    animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
@@ -426,4 +426,21 @@ body {
     background-color: transparent;
     color: #00B386;
     box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.web-map-button {
+    background-color: transparent;
+    border: 2px solid #00B386;
+    color: #00B386;
+}
+
+.web-map-button:hover {
+    background-color: #00B386;
+    color: white;
 }

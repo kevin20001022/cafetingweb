@@ -29,16 +29,16 @@ function createBackgroundPoint() {
 // 点的动画函数
 function animatePoint(point) {
     setTimeout(() => {
-        point.style.transition = 'opacity 0.3s ease';
+        point.style.transition = 'opacity 0.2s ease';
         point.style.opacity = '1';
-    }, Math.random() * 300);
+    }, Math.random() * 200);
 
     setTimeout(() => {
         point.style.opacity = '0';
         setTimeout(() => {
             point.remove();
-        }, 300);
-    }, 800 + Math.random() * 500);
+        }, 200);
+    }, 600 + Math.random() * 300);
 }
 
 // 创建初始点阵
@@ -50,7 +50,7 @@ function createPoints() {
     const interval = setInterval(() => {
         if (count >= totalPoints) {
             clearInterval(interval);
-            setTimeout(showMainContent, 1000);
+            setTimeout(showMainContent, 500);
             return;
         }
 
@@ -58,7 +58,7 @@ function createPoints() {
         container.appendChild(point);
         animatePoint(point);
         count++;
-    }, 50);
+    }, 30);
 }
 
 // 添加背景点
@@ -77,7 +77,7 @@ function showMainContent() {
     const loadingScreen = document.querySelector('.loading-screen');
     const mainContent = document.getElementById('mainContent');
 
-    loadingScreen.style.transition = 'opacity 0.5s ease';
+    loadingScreen.style.transition = 'opacity 0.3s ease';
     loadingScreen.style.opacity = '0';
     
     setTimeout(() => {
@@ -85,7 +85,7 @@ function showMainContent() {
         mainContent.style.opacity = '1';
         document.body.style.overflow = 'auto';
         addBackgroundPoints();
-    }, 500);
+    }, 300);
 }
 
 // 回到頂部按鈕功能

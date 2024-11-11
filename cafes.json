@@ -1,0 +1,3534 @@
+{
+  "cafes": [
+    {
+        "address": "新北市淡水區大忠街5巷28號1樓",
+        "coordinate": { "latitude": 25.1764, "longitude": 121.444 },
+        "hours": "週一至週日 12:00-19:00",
+        "lighting": "光線柔和",
+        "name": "伍巷 WuSiang",
+        "noise": "音量適中",
+        "outlets": "插座充足",
+        "seating": "經常有空位",
+        "timeLimit": "有時間限制",
+        "website": "https://goo.gl/maps/BLuavjn7T4Fbj3XdA"
+      },
+      {
+        "address":"新北市淡水區自強路50-2號1樓",
+        "coordinate": { "latitude": 25.1274, "longitude": 121.4633 },
+        "hours": "週二至週六 12:00-21:00",
+        "lighting": "光線明亮",
+        "name": "雪花咖啡",
+        "noise": "有些吵雜",
+        "outlets": "插座充足",
+        "phone": "0922435895",
+        "seating": "經常有空位",
+        "timeLimit": "無時間限制",
+        "website": "https://maps.app.goo.gl/3CdLJMSw8iHTPA1p9?g_st=ic"
+      },
+    {
+          "name": "The Edge 邊緣咖啡",
+          "address": "新北市淡水區民權路173巷3號1樓",
+          "coordinate": {
+              "latitude": 25.1359711604129,
+              "longitude": 121.460273482425
+          },
+          "hours": "週一及週三公休 11:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/iyE364JaF4AMYrWt7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "摩咖啡",
+          "address": "新北市淡水區北新路184巷198號",
+          "coordinate": {
+              "latitude": 25.177069821336,
+              "longitude": 121.451372940098
+          },
+          "hours": "週一至週日 12:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0910 613 074",
+          "website": "https://maps.app.goo.gl/2wUDYFYBhA9kJort7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "山边咖啡",
+          "address": "台北市北投區溫泉路110-1號",
+          "coordinate": {
+              "latitude": 25.1364736339012,
+              "longitude": 121.511033453589
+          },
+          "hours": "週四至週二 11:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2893 9325",
+          "website": "https://maps.app.goo.gl/4dVUwFa4ydxLXHCK8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Corner Coffee腳落咖啡",
+          "address": "台北市北投區石牌路一段39巷136號",
+          "coordinate": {
+              "latitude": 25.117654463678,
+              "longitude": 121.50997291126
+          },
+          "hours": "週一至週日 11:00-20:00",
+          "lighting": "光線昏暗",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2820 0810",
+          "website": "https://maps.app.goo.gl/UCQczfosggbDLJSS9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "看電車咖啡 Orange Cafe",
+          "address": "台北市士林區文林路302號",
+          "coordinate": {
+              "latitude": 25.0921950023305,
+              "longitude": 121.526397182424
+          },
+          "hours": "週一至週日 11:30-21:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2888 1220",
+          "website": "https://maps.app.goo.gl/2UXHvCAxQH3HFrsd9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Sultani Coffee",
+          "address": "台北市中山區北安路621巷37號1樓",
+          "coordinate": {
+              "latitude": 25.0832034822335,
+              "longitude": 121.547306097767
+          },
+          "hours": "週一至週六 09:30-17:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2533 8038",
+          "website": "https://maps.app.goo.gl/r1ryXfKQLABKDrof7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "杜鵑窩CUCKOO's NEST",
+          "address": "台北市中山區北安路458巷41弄52號",
+          "coordinate": {
+              "latitude": 25.079221907554,
+              "longitude": 121.546583111259
+          },
+          "hours": "週一至週日 14:30-00:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2533 0531",
+          "website": "https://maps.app.goo.gl/c8d6NTBSTPXggcix8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "YELLOW BREAD 耶樓麵包",
+          "address": "台北市中山區北安路518巷3號",
+          "coordinate": {
+              "latitude": 25.079492999097,
+              "longitude": 121.546097724751
+          },
+          "hours": "週二至週六 07:30–19:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0920 317 842",
+          "website": "https://maps.app.goo.gl/PNdW8QzHSzEFrHwP7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "WIRED CAFE",
+          "address": "台北市中山區樂群三路200號",
+          "coordinate": {
+              "latitude": 25.082724273163,
+              "longitude": 121.556748909408
+          },
+          "hours": "週一至週日 11:00-21:30",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 8501 1888",
+          "website": "https://maps.app.goo.gl/jZDKhcYw9wXLfRw27?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Moooon River Cafe & Books",
+          "address": "台北市內湖區瑞光路218號",
+          "coordinate": {
+              "latitude": 25.0756502305895,
+              "longitude": 121.576022438244
+          },
+          "hours": "週一至週日 11:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 7720 2070",
+          "website": "https://maps.app.goo.gl/HAbqBrh7rHFF9vZv8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "陋巷咖啡廳 Lost Alley Cafe",
+          "address": "台北市南港區忠孝東路七段487巷5號",
+          "coordinate": {
+              "latitude": 25.0533163077832,
+              "longitude": 121.611531395915
+          },
+          "hours": "週一至週日 13:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/ti1dSb4ahL5nYwMW6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "木童繪本咖啡",
+          "address": "新北市三重區仁愛街19號2樓",
+          "coordinate": {
+              "latitude": 25.0712068456603,
+              "longitude": 121.496979438244
+          },
+          "hours": "週二至週日 11:00–20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0978 605 509",
+          "website": "https://maps.app.goo.gl/hn6urNgA2qRkRMmFA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "NEDA COFFEE",
+          "address": "新北市三重區六張街21號1樓",
+          "coordinate": {
+              "latitude": 25.0708394201987,
+              "longitude": 121.495312724751
+          },
+          "hours": "週三至週一 08:00–18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 8988 3687",
+          "website": "https://maps.app.goo.gl/Tzq8xx5hz3d9AQrY6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "三十曼波工作室30mambo",
+          "address": "新北市三重區安慶街3號1樓",
+          "coordinate": {
+              "latitude": 25.0697202675376,
+              "longitude": 121.497316126602
+          },
+          "hours": "週三至週六 13:00–19:00",
+          "lighting": "光線昏暗",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0970 616 272",
+          "website": "https://maps.app.goo.gl/2PRWcdyHC7HNuycQ6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "時咖啡",
+          "address": "新北市三重區大仁街5號",
+          "coordinate": {
+              "latitude": 25.0639648562755,
+              "longitude": 121.491721367079
+          },
+          "hours": "週一至週日 08:00–18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/znPpncmxCnabZvtm6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Koon coffee 㒭咖啡",
+          "address": "新北市三重區文化南路15巷80號1樓",
+          "coordinate": {
+              "latitude": 25.0619762399146,
+              "longitude": 121.498225465228
+          },
+          "hours": "週二至週日 13:00–22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2975 5808",
+          "website": "https://maps.app.goo.gl/tagesftxdE4vRScS9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "嘎哩咖啡 ｜ GaliGabi",
+          "address": "台北市大同區重慶北路三段23號2樓",
+          "coordinate": {
+              "latitude": 25.0649683770332,
+              "longitude": 121.513830094064
+          },
+          "hours": "週一至週日 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2521 8765",
+          "website": "https://maps.app.goo.gl/UKWNf4L8AmuEzeTJ7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "珈啡所在 Coffee Field",
+          "address": "台北市大同區承德路三段51巷22號",
+          "coordinate": {
+              "latitude": 25.0641209746487,
+              "longitude": 121.518862853587
+          },
+          "hours": "週一至週日 12:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0989 000 930",
+          "website": "https://maps.app.goo.gl/wo2cvCTKQmUvN4P47?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "ハハ珈琲店",
+          "address": "台北市中山區雙城街47-1號",
+          "coordinate": {
+              "latitude": 25.0679526158508,
+              "longitude": 121.5244321229
+          },
+          "hours": "週二至週日 12:00–18:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2595 3122",
+          "website": "https://maps.app.goo.gl/d3VdXNSLzZQMKhgg7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "澳氏咖啡 Aussie Cafe",
+          "address": "台北市中山區中山北路二段115巷33號",
+          "coordinate": {
+              "latitude": 25.0611409408427,
+              "longitude": 121.52432476893
+          },
+          "hours": "週一至週日 12:00-20:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2521 9192",
+          "website": "https://maps.app.goo.gl/6zXaAjFgshNvH5HH6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "好土: home to",
+          "address": "台北市中山區中山北路二段72巷20號1樓",
+          "coordinate": {
+              "latitude": 25.0572283171619,
+              "longitude": 121.521530124751
+          },
+          "hours": "週一至週日 12:00-18:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2511 2806",
+          "website": "https://maps.app.goo.gl/5gZY1yGY4d8mEBCYA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "爐鍋咖啡 Luguo Cafe",
+          "address": "台北市大同區迪化街一段32巷1號2樓",
+          "coordinate": {
+              "latitude": 25.0548470829076,
+              "longitude": 121.509948882422
+          },
+          "hours": "週一至週日 10:30-18:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2555 8225",
+          "website": "https://maps.app.goo.gl/QZXtjPZH2YBtyxYp7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "琢磨咖啡 coffee 永樂店",
+          "address": "台北市大同區南京西路233巷18號2樓",
+          "coordinate": {
+              "latitude": 25.0545701220122,
+              "longitude": 121.510459397766
+          },
+          "hours": "週一至週日 08:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0972 237 732",
+          "website": "https://maps.app.goo.gl/tP84L8BA8iW5Lh5aA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "哩家咖啡 LI-HOUSE Cafe",
+          "address": "台北市大同區重慶北路一段26巷49號",
+          "coordinate": {
+              "latitude": 25.0512963713543,
+              "longitude": 121.512496195915
+          },
+          "hours": "週三至週日 11:00–18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "0976 941 120",
+          "website": "https://maps.app.goo.gl/n2dgbMcvS6gw4toNA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Block & Cafe. 町咖啡",
+          "address": "台北市大同區太原路50號2樓",
+          "coordinate": {
+              "latitude": 25.0510089912951,
+              "longitude": 121.515302340094
+          },
+          "hours": "週一至週日 08:00-03:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2558 8163",
+          "website": "https://maps.app.goo.gl/Ha7cMuBKD2RJpG76A?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Middle coffee & space",
+          "address": "台北市大同區南京西路18巷10號",
+          "coordinate": {
+              "latitude": 25.0518432879115,
+              "longitude": 121.520109267079
+          },
+          "hours": "週一至週日 09:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2556 6116",
+          "website": "https://maps.app.goo.gl/8Tm1Bc5wtKjHTqQY9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "黑露咖啡館 OLO Coffee Roasters",
+          "address": "台北市大同區南京西路18巷26之2號",
+          "coordinate": {
+              "latitude": 25.0511083695406,
+              "longitude": 121.520028267079
+          },
+          "hours": "週四至週二 13:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/a6wkBxLZBap2d5nq8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "二會咖啡廳",
+          "address": "台北市中山區華陰街21號2樓",
+          "coordinate": {
+              "latitude": 25.0494759721302,
+              "longitude": 121.52000662475
+          },
+          "hours": "週一至週日 13:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2522 1213",
+          "website": "https://maps.app.goo.gl/TT3gAWSs8kTSQrib6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "言文字 Emoji Cafe & Bar",
+          "address": "台北市中正區開封街一段6號",
+          "coordinate": {
+              "latitude": 25.046053177593,
+              "longitude": 121.514110897766
+          },
+          "hours": "週一至週日 13:30-03:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0921 102 067",
+          "website": "https://maps.app.goo.gl/tKDpdtqeQ81jEoou9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "鬧咖啡 NOW coffee",
+          "address": "台北市中正區延平南路58號",
+          "coordinate": {
+              "latitude": 25.04572903814,
+              "longitude": 121.510394867079
+          },
+          "hours": "週一至週日 10:30-21:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2361 3160",
+          "website": "https://maps.app.goo.gl/NaHyTk1V6nhfTsD86?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Hi Hi Coffee",
+          "address": "台北市萬華區西寧南路88-1號",
+          "coordinate": {
+              "latitude": 25.0423261226021,
+              "longitude": 121.505824480571
+          },
+          "hours": "週一至週日 11:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/jzBbfvKNUwmzwfLq8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "街口6號珈啡",
+          "address": "台北市萬華區貴陽街二段6號",
+          "coordinate": {
+              "latitude": 25.0394136470478,
+              "longitude": 121.50676772475
+          },
+          "hours": "週五至週三 12:00-19:30",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2311 2252",
+          "website": "https://maps.app.goo.gl/7qqP5js8Q8nfZodw5?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Perk & Cafe. 邊緣咖啡",
+          "address": "台北市中正區懷寧街82號1樓",
+          "coordinate": {
+              "latitude": 25.0431334215137,
+              "longitude": 121.513930882422
+          },
+          "hours": "週一至週日 08:00-03:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2311 9777",
+          "website": "https://maps.app.goo.gl/GmB72PQFARRNRrBF8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "抹More",
+          "address": "台北市中正區寧波西街221號",
+          "coordinate": {
+              "latitude": 25.0258771743345,
+              "longitude": 121.510308522899
+          },
+          "hours": "週一至週日 17:00-03:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2339 0035",
+          "website": "https://maps.app.goo.gl/hTzMaC3ot3dTChTn6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "海子家珈琲",
+          "address": "台北市中正區寧波西街24-1號2樓",
+          "coordinate": {
+              "latitude": 25.0311803106087,
+              "longitude": 121.51833922475
+          },
+          "hours": "週四至週二 10:00-18:30",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2358 7721",
+          "website": "https://maps.app.goo.gl/X39979Hqs4ZPpewz9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "風潮咖啡Agitation coffee",
+          "address": "台北市中山區松江路204巷2號1樓",
+          "coordinate": {
+              "latitude": 25.0575301020997,
+              "longitude": 121.533128335857
+          },
+          "hours": "週一至週日 12:30-23:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2511 8589",
+          "website": "https://maps.app.goo.gl/LZg8pyWKMMyaAzt2A?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "CAFE RACO",
+          "address": "台北市中山區民生東路二段147巷1號1樓",
+          "coordinate": {
+              "latitude": 25.0585874006735,
+              "longitude": 121.534919724751
+          },
+          "hours": "週一至週日 09:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2517 5310",
+          "website": "https://maps.app.goo.gl/uuUpyWqtqND3BN9a7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "旅徒咖啡",
+          "address": "台北市中山區長春路146-1號2樓",
+          "coordinate": {
+              "latitude": 25.0549598598853,
+              "longitude": 121.531741353587
+          },
+          "hours": "週一至週日 12:20-19:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/m6FtXeTLB2okYswo8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "露徑 On The Road",
+          "address": "台北市中山區南京東路二段41巷16弄2號",
+          "coordinate": {
+              "latitude": 25.0531120274924,
+              "longitude": 121.529285424751
+          },
+          "hours": "週三至週一 11:00–19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/sdcn7d6p5vmzUknUA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "窩著咖啡 perch cafe",
+          "address": "台北市中山區松江路97巷2號",
+          "coordinate": {
+              "latitude": 25.0511610694571,
+              "longitude": 121.533630682422
+          },
+          "hours": "週一至週日 12:00-21:30",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "02 2517 7792",
+          "website": "https://maps.app.goo.gl/FWghh3RctByMExrEA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "KiOSK",
+          "address": "台北市中山區新生北路一段40號",
+          "coordinate": {
+              "latitude": 25.0465653563703,
+              "longitude": 121.531442582422
+          },
+          "hours": "週三至週一 10:00–17:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/1xmid97LrzeMTUzPA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "德佈Debut Cafe 台北店",
+          "address": "台北市中山區新生北路一段15號",
+          "coordinate": {
+              "latitude": 25.0469467355623,
+              "longitude": 121.531983282422
+          },
+          "hours": "週一至週日 11:30-21:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2541 7279",
+          "website": "https://maps.app.goo.gl/zyk9CaEywJYhvSnY6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "特有種商行Realguts cafe",
+          "address": "台北市中正區臨沂街27巷4-1號",
+          "coordinate": {
+              "latitude": 25.041053863153,
+              "longitude": 121.530759411258
+          },
+          "hours": "週一至週日 11:30-21:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2341 1785",
+          "website": "https://maps.app.goo.gl/5acEBwJcMrGnJqHRA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Joco latte",
+          "address": "台北市中山區民生東路三段88巷4號",
+          "coordinate": {
+              "latitude": 25.0577040781479,
+              "longitude": 121.542457080572
+          },
+          "hours": "週二至週日 12:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2501 8809",
+          "website": "https://maps.app.goo.gl/qbv86NrbfKXC42uJ7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "KONZY KAVA",
+          "address": "台北市中山區長春路327巷5號",
+          "coordinate": {
+              "latitude": 25.0552656895928,
+              "longitude": 121.543510494064
+          },
+          "hours": "週一至週日 11:30-19:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0901 249 546",
+          "website": "https://maps.app.goo.gl/iHEFQxdXzRFrueDW9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "覺旅咖啡 Journey Kaffe 南京復興店",
+          "address": "台北市松山區南京東路三段303巷8弄7號1樓",
+          "coordinate": {
+              "latitude": 25.0532690049608,
+              "longitude": 121.547168953587
+          },
+          "hours": "週一至週日 09:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2514 7100",
+          "website": "https://maps.app.goo.gl/pDZaUjihCpAim9wY6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Remember Me_記得我．café",
+          "address": "台北市松山區南京東路四段133巷4弄16號",
+          "coordinate": {
+              "latitude": 25.0525222088541,
+              "longitude": 121.554498809407
+          },
+          "hours": "週二至週日 12:00-02:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "02 2547 1517",
+          "website": "https://maps.app.goo.gl/eGWUDQf981PM6uD29?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "瑞帛咖啡Rebirth Coffee",
+          "address": "台北市松山區光復北路11巷85號",
+          "coordinate": {
+              "latitude": 25.0505764096594,
+              "longitude": 121.561712038243
+          },
+          "hours": "週一至週日 10:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2747 0727",
+          "website": "https://maps.app.goo.gl/S2ZQmwMdnk2t6YC99?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Wilbeck威爾貝克手烘咖啡吧-永吉店",
+          "address": "台北市信義區永吉路30巷158弄2號",
+          "coordinate": {
+              "latitude": 25.0424812860469,
+              "longitude": 121.568571451735
+          },
+          "hours": "週一至週日 07:30-17:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2765 3212",
+          "website": "https://maps.app.goo.gl/hxUms1ebS73f2npv5?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "慢步調 咖啡館",
+          "address": "台北市大安區忠孝東路三段251巷1弄1號",
+          "coordinate": {
+              "latitude": 25.0422940632287,
+              "longitude": 121.541869426601
+          },
+          "hours": "週一至週日 11:30-20:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2711 2311",
+          "website": "https://maps.app.goo.gl/oG9titNoGnR1yH9V9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Homey's cafe",
+          "address": "台北市大安區敦化南路一段236巷36號2樓",
+          "coordinate": {
+              "latitude": 25.0405948411367,
+              "longitude": 121.546622911258
+          },
+          "hours": "週一至週日 12:00-23:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2711 1519",
+          "website": "https://maps.app.goo.gl/T5HxEAfmexCuEwJi8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "有kaffe冇",
+          "address": "台北市大安區信義路三段147巷36弄24號",
+          "coordinate": {
+              "latitude": 25.0373488534223,
+              "longitude": 121.541116097765
+          },
+          "hours": "週一至週日 09:30-18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0931 031 766",
+          "website": "https://maps.app.goo.gl/ijBTufY2axpQP6V57?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "營火 Campfire Cafe",
+          "address": "台北市信義區光復南路419巷76號",
+          "coordinate": {
+              "latitude": 25.0365919095891,
+              "longitude": 121.558858638243
+          },
+          "hours": "週三至週日 14:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 8786 4179",
+          "website": "https://maps.app.goo.gl/E6rayvdEf4KBcGT29?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "2730café 貳柒參零咖啡",
+          "address": "台北市大安區延吉街288號",
+          "coordinate": {
+              "latitude": 25.0337462922316,
+              "longitude": 121.556976965227
+          },
+          "hours": "週四至週二 14:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2708 8230",
+          "website": "https://maps.app.goo.gl/ahowRdiLR9QbHhfz7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "James House (coffee)",
+          "address": "台北市大安區安和路一段127巷29弄1號一樓",
+          "coordinate": {
+              "latitude": 25.0354019902627,
+              "longitude": 121.553876351735
+          },
+          "hours": "週三至週一 13:40-00:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2755 6881",
+          "website": "https://maps.app.goo.gl/H182UiGMVygkUBt19?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Congrats Café",
+          "address": "台北市大安區文昌街49號",
+          "coordinate": {
+              "latitude": 25.0330976930029,
+              "longitude": 121.550526951735
+          },
+          "hours": "週一至週日 09:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2700 6639",
+          "website": "https://maps.app.goo.gl/epH3nnU7jt9enC8Y8?g_st=com.google.maps.preview.copy"  
+      },
+      {
+          "name": "這間咖啡",
+          "address": "台北市大安區信義路四段30巷39號",
+          "coordinate": {
+              "latitude": 25.0319694154525,
+              "longitude": 121.545199491676
+          },
+          "hours": "週一至週日 14:00-00:00",
+          "lighting": "光線昏暗",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2755 1288",
+          "website": "https://maps.app.goo.gl/H7KtBSgyonwtp2Wa7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "水哥咖啡",
+          "address": "台北市大安區信義路四段30巷48號",
+          "coordinate": {
+              "latitude": 25.0319225677465,
+              "longitude": 121.544548782422
+          },
+          "hours": "週一至週日 11:30-23:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2700 9082",
+          "website": "https://maps.app.goo.gl/LxPqXqeEbS3pes3S8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "桃五咖啡",
+          "address": "台北市大安區瑞安街208巷56號1樓",
+          "coordinate": {
+              "latitude": 25.0299173329777,
+              "longitude": 121.540443495914
+          },
+          "hours": "週二至週日 14:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/rkFPMBrENSCCmpfZ8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Coffee Naps 蓁澄咖啡手作坊",
+          "address": "台北市大安區瑞安街256巷29號",
+          "coordinate": {
+              "latitude": 25.0278583349363,
+              "longitude": 121.538297480571
+          },
+          "hours": "週一至週日 11:00-20:30",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2784 4843",
+          "website": "https://maps.app.goo.gl/SBhipbxVDuVxStwv5?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "水牛書店 台北店",
+          "address": "台北市大安區瑞安街222巷2號1樓",
+          "coordinate": {
+              "latitude": 25.0276623423649,
+              "longitude": 121.540041368929
+          },
+          "hours": "週四至週日 10:00-18:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2707 7003",
+          "website": "https://maps.app.goo.gl/eqttHCLvrK4a13MK6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "點亮咖啡",
+          "address": "台北市大安區和平東路二段96巷17弄6號1樓",
+          "coordinate": {
+              "latitude": 25.0232643227045,
+              "longitude": 121.541552541944
+          },
+          "hours": "週一至週日 12:30-18:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2732 3848",
+          "website": "https://maps.app.goo.gl/cYjgdiuwcCzBHfGk7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Stoppage Time 補時",
+          "address": "台北市大安區和平東路二段96巷15弄30號",
+          "coordinate": {
+              "latitude": 25.0234943786771,
+              "longitude": 121.542309182421
+          },
+          "hours": "週一至週日 11:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2736 6506",
+          "website": "https://maps.app.goo.gl/u9vHYQwbbVr4gvrg7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "RUFOUS COFFEE ROASTERS",
+          "address": "台北市大安區復興南路二段339號",
+          "coordinate": {
+              "latitude": 25.0235974954538,
+              "longitude": 121.543633338242
+          },
+          "hours": "週五至週三 12:00-20:00",
+          "lighting": "光線昏暗",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2736 6880",
+          "website": "https://maps.app.goo.gl/hb3aKxLbCdsLRQjR9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "夢庵｜meng an",
+          "address": "台北市大安區辛亥路二段207號",
+          "coordinate": {
+              "latitude": 25.0217690188155,
+              "longitude": 121.542247965227
+          },
+          "hours": "週一至週日 12:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/yj2ZWijxy3yZ7U3U7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "大爆咖啡 BOOM coffee roasters",
+          "address": "台北市大安區敦化南路二段200巷16號",
+          "coordinate": {
+              "latitude": 25.023001757751,
+              "longitude": 121.547528167078
+          },
+          "hours": "週日至週五 08:30-18:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 8732 0677",
+          "website": "https://maps.app.goo.gl/cyiWXAsDfh1ps4Rv5?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "休習日 Z Day Cafe",
+          "address": "台北市大安區樂業街41巷2號",
+          "coordinate": {
+              "latitude": 25.0231399484578,
+              "longitude": 121.550066440093
+          },
+          "hours": "週二至週日 11:30-21:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2378 0602",
+          "website": "https://maps.app.goo.gl/xXqCLvwAeazaGX6z7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "RUFOUS COFFEE ROASTERS 2",
+          "address": "台北市大安區基隆路二段266號",
+          "coordinate": {
+              "latitude": 25.0223969931949,
+              "longitude": 121.549796109406
+          },
+          "hours": "週五至週三 11:00-18:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2736 6881",
+          "website": "https://maps.app.goo.gl/t3BKmney3n7PhHuA9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "917好事咖啡創意廚房",
+          "address": "台北市大安區安居街8巷19號",
+          "coordinate": {
+              "latitude": 25.0220179937653,
+              "longitude": 121.554695313108
+          },
+          "hours": "週一至週日 11:30-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 8732 8292",
+          "website": "https://maps.app.goo.gl/DtYTE4UDjw1JaQdbA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "世界末日與冷酷異境 / 怪咖啡",
+          "address": "台北市大安區安居街108巷20號1樓",
+          "coordinate": {
+              "latitude": 25.0194464418435,
+              "longitude": 121.551794082421
+          },
+          "hours": "週五至週二 13:30-21:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2738 9353",
+          "website": "https://maps.app.goo.gl/kX771coc1cFj63RF6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "東咖啡 Dong Coffee",
+          "address": "台北市信義區和平東路三段391巷8弄8號",
+          "coordinate": {
+              "latitude": 25.0204540621917,
+              "longitude": 121.557694753586
+          },
+          "hours": "週一至週日 12:00-19:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 8732 2212",
+          "website": "https://maps.app.goo.gl/mLgqS3FzEKmSfr8J6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "湛盧咖啡 大安館",
+          "address": "台北市大安區新生南路一段161巷2-1號",
+          "coordinate": {
+              "latitude": 25.0347026702037,
+              "longitude": 121.533340311258
+          },
+          "hours": "週一至週日 10:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2708 9828",
+          "website": "https://maps.app.goo.gl/aoTNheTB3fidGzD77?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "聲色 Sounds Good",
+          "address": "台北市大安區新生南路二段30巷1-3號",
+          "coordinate": {
+              "latitude": 25.0319045099772,
+              "longitude": 121.532663995914
+          },
+          "hours": "週二至週日 10:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "02 2358 1668",
+          "website": "https://maps.app.goo.gl/qMWace3QCvXr3oWQ7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "月半咖啡",
+          "address": "台北市大安區永康街47巷30號",
+          "coordinate": {
+              "latitude": 25.0304679447346,
+              "longitude": 121.531295868929
+          },
+          "hours": "週一至週日 11:15-20:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2396 5208",
+          "website": "https://maps.app.goo.gl/NJFefXes6Gf5NJdB7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "成真咖啡 台北永康店",
+          "address": "台北市大安區永康街37巷6號",
+          "coordinate": {
+              "latitude": 25.0308410744897,
+              "longitude": 121.529855097765
+          },
+          "hours": "週一至週日 10:30-21:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2358 2826",
+          "website": "https://maps.app.goo.gl/Axd1RT1VfkB6MrUF7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "鴉埠咖啡 YABOO II 貳號店",
+          "address": "台北市大安區麗水街9巷10-1號一樓",
+          "coordinate": {
+              "latitude": 25.0307232503574,
+              "longitude": 121.529298653586
+          },
+          "hours": "週五至週三 14:00-22:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2356 0999",
+          "website": "https://maps.app.goo.gl/wx2DcRjB2qVBZo3x6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Out Of Office Coffee Roastery 金華店",
+          "address": "台北市大安區金華街207號",
+          "coordinate": {
+              "latitude": 25.0302267876586,
+              "longitude": 121.528397353586
+          },
+          "hours": "週三至週一 07:30-18:00",
+          "lighting": "光線明亮",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2394 8000",
+          "website": "https://maps.app.goo.gl/GVUYdZmRFcR8LPvu7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "貓圖咖啡CAT. jpg cafe",
+          "address": "台北市大安區潮州街154號",
+          "coordinate": {
+              "latitude": 25.0286281334591,
+              "longitude": 121.52899672475
+          },
+          "hours": "週一至週日 08:30-17:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 3365 2865",
+          "website": "https://maps.app.goo.gl/VCUGNWp3Kue2eHyJ8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "SODA by coffeeflair 東門咖啡館",
+          "address": "台北市大安區信義路二段86巷25號1樓",
+          "coordinate": {
+              "latitude": 25.0341011755704,
+              "longitude": 121.525765895914
+          },
+          "hours": "週一至週日 10:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2396 0758",
+          "website": "https://maps.app.goo.gl/KGERvGBAsvspDmh99?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "咖啡學人-傑克威爾The Cafeist & Jackwell",
+          "address": "台北市中正區羅斯福路二段118號",
+          "coordinate": {
+              "latitude": 25.0264227302354,
+              "longitude": 121.522783167078
+          },
+          "hours": "週一至週日 08:00-20:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座數量有限",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2368 0045",
+          "website": "https://maps.app.goo.gl/ZXNoHNs1yPimZcWv8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "行路 Walk Café",
+          "address": "台北市大安區和平東路一段104巷6號1樓",
+          "coordinate": {
+              "latitude": 25.0266957082515,
+              "longitude": 121.524914126601
+          },
+          "hours": "週一至週日 12:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2368 5029",
+          "website": "https://maps.app.goo.gl/Kv2Q49PGQgfXJDoZA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "路燈咖啡 師大店",
+          "address": "台北市大安區浦城街4號",
+          "coordinate": {
+              "latitude": 25.0247347065518,
+              "longitude": 121.526785251735
+          },
+          "hours": "週一至週日 11:00-21:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2365 5000",
+          "website": "https://maps.app.goo.gl/mKKWp4bcybehWN7h6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "欒樹下書房/咖啡",
+          "address": "台北市大安區溫州街24號",
+          "coordinate": {
+              "latitude": 25.0235036915288,
+              "longitude": 121.533289555437
+          },
+          "hours": "週一至週日 10:30-23:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2369 3333",
+          "website": "https://maps.app.goo.gl/uYjkK9oHUEC5udNfA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "AGCT apartment",
+          "address": "台北市大安區溫州街49巷2號3F",
+          "coordinate": {
+              "latitude": 25.0215337944944,
+              "longitude": 121.533199140093
+          },
+          "hours": "週一至週日 12:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2369 6659",
+          "website": "https://maps.app.goo.gl/wNK5cEYujjq3p8NQ7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "半路咖啡 Halfway Cafe",
+          "address": "台北市大安區羅斯福路三段269巷51弄9號",
+          "coordinate": {
+              "latitude": 25.0203190963231,
+              "longitude": 121.53162022475
+          },
+          "hours": "週三至週一 12:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "02 2362 5573",
+          "website": "https://maps.app.goo.gl/BZZsGDyMnvGmRLUp9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Aura微光咖啡",
+          "address": "台北市大安區羅斯福路三段269巷9號",
+          "coordinate": {
+              "latitude": 25.0196515194148,
+              "longitude": 121.530619382421
+          },
+          "hours": "週一至週日 13:30-22:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 8369 3577",
+          "website": "https://maps.app.goo.gl/oeWSEfzgu9v2uSJH7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "野餐咖啡",
+          "address": "台北市大安區溫州街75號",
+          "coordinate": {
+              "latitude": 25.0205593399919,
+              "longitude": 121.533012151734
+          },
+          "hours": "週一至週日 13:00-22:20",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2368 7798",
+          "website": "https://maps.app.goo.gl/4tgHv3ZbTS5pQWNC9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "聞山咖啡台大店",
+          "address": "台北市大安區新生南路三段56巷11-1號",
+          "coordinate": {
+              "latitude": 25.020625507831,
+              "longitude": 121.533439922899
+          },
+          "hours": "週一至週日 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2365 3239",
+          "website": "https://maps.app.goo.gl/bnd9NbvWkC3bGQco9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "亞舍咖啡",
+          "address": "台北市大安區新生南路三段60巷1號",
+          "coordinate": {
+              "latitude": 25.0203314183375,
+              "longitude": 121.533551809406
+          },
+          "hours": "週一至週日 12:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 2363 2899",
+          "website": "https://maps.app.goo.gl/XbGRWsX1x31C46w97?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "秘徑咖啡Alley's cafe",
+          "address": "台北市文山區羅斯福路五段218巷9弄3號",
+          "coordinate": {
+              "latitude": 25.0017362952973,
+              "longitude": 121.538518111257
+          },
+          "hours": "週一至週日 11:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 8663 1525",
+          "website": "https://maps.app.goo.gl/YJxGohzoFoVXEtoZ6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "金福咖啡 JinfuCoffee",
+          "address": "台北市文山區萬隆街13巷14號",
+          "coordinate": {
+              "latitude": 24.9999824742145,
+              "longitude": 121.539044868928
+          },
+          "hours": "週一至週日 10:30-20:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/aJdxujE2viPBdcV4A?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "聞山咖啡景美店",
+          "address": "台北市文山區景中街19號",
+          "coordinate": {
+              "latitude": 24.9932130129288,
+              "longitude": 121.542263284271
+          },
+          "hours": "週五至週三 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2933 4567",
+          "website": "https://maps.app.goo.gl/1hugQ1oiTwPGMzbUA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "CBC SPACE 景美咖啡圖書館",
+          "address": "台北市文山區景興路193號",
+          "coordinate": {
+              "latitude": 24.9925426654226,
+              "longitude": 121.544226709405
+          },
+          "hours": "週一至週日 08:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2931 0512",
+          "website": "https://maps.app.goo.gl/GhyN1sC6EurXR8qh8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "墨啡商行",
+          "address": "新北市新店區寶橋路1巷2號",
+          "coordinate": {
+              "latitude": 24.9741566657555,
+              "longitude": 121.543382551733
+          },
+          "hours": "週一至週日 10:30-19:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2915 8111",
+          "website": "https://maps.app.goo.gl/nf2waXxacRG1CdvS8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "棲木咖啡",
+          "address": "新北市板橋區文化路二段263巷18號",
+          "coordinate": {
+              "latitude": 25.0297413395638,
+              "longitude": 121.471294795914
+          },
+          "hours": "週四至週一 11:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "02 8258 8217",
+          "website": "https://maps.app.goo.gl/aQSrdVc2QfWT9tnQ9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Café Wanderer咖啡浪遊",
+          "address": "新北市板橋區陽明街27巷7號",
+          "coordinate": {
+              "latitude": 25.0217451380189,
+              "longitude": 121.465671351734
+          },
+          "hours": "週二至週日 10:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 2259 0121",
+          "website": "https://maps.app.goo.gl/qUyPUuaGPJLs3uMW8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Merci vielle",
+          "address": "新北市板橋區府中路50號2樓",
+          "coordinate": {
+              "latitude": 25.0096944692791,
+              "longitude": 121.457068194062
+          },
+          "hours": "週一至週日 13:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "02 8965 3906",
+          "website": "https://maps.app.goo.gl/uaUnrM9Vwmzs9D5RA?g_st=com.google.maps.preview.copy" 
+      },
+      {
+          "name": "Ferment Banqiao",
+          "address": "新北市板橋區館前西路213巷7號1樓",
+          "coordinate": {
+              "latitude": 25.0083373994547,
+              "longitude": 121.454540211257
+          },
+          "hours": "週三至週日 09:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0910 992 771",
+            "website": "https://maps.app.goo.gl/NyS6nGvxRZUrr3jt7?g_st=com.google.maps.preview.copy"   
+      },
+      {
+          "name": "ZZZ Coffee Shops",
+          "address": "新北市中和區中山路二段205號",
+          "coordinate": {
+              "latitude": 25.0026229292218,
+              "longitude": 121.499873024749
+          },
+          "hours": "週一至週日 12:00-20:00",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/3uTx2Qp397prH6Bn8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Balcony Cafe 陽台咖啡",
+          "address": "台北市中山區大直街34巷20號2樓",
+          "coordinate": {
+              "latitude": 25.0817829693711,
+              "longitude": 121.545653555438
+          },
+          "hours": "週五至週一 12:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225338416",
+          "website": "https://maps.app.goo.gl/z8RjYN4bthuWRfCq7?g_st=com.google.maps.preview.copy"  
+      },
+      {
+          "name": "Vis cafe 圓山店",
+          "address": "台北市大同區酒泉街34-3號",
+          "coordinate": {
+              "latitude": 25.0706545400823,
+              "longitude": 121.518852438244
+          },
+          "hours": "週一至週日 12:00-00:00",
+          "lighting": "光線昏暗",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225862321",
+          "website": "https://maps.app.goo.gl/ae7fP5F6Fwsu153AA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "ㄧ五六咖啡烘焙館",
+          "address": "台北市大同區民族西路31巷24號",
+          "coordinate": {
+              "latitude": 25.069408731655,
+              "longitude": 121.519591595915
+          },
+          "hours": "週二至週日 09:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225952956",
+          "website": "https://maps.app.goo.gl/hoMEGsw9d6zYxkhU9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Necessary Workshop",
+          "address": "台北市中山區雙城街43巷33號1樓",
+          "coordinate": {
+              "latitude": 25.0677294066139,
+              "longitude": 121.525450495915
+          },
+          "hours": "週四至週一 12:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/FXCWdCYqx6s99oeL7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "島",
+          "address": "台北市大同區昌吉街248號",
+          "coordinate": {
+              "latitude": 25.0658767803279,
+              "longitude": 121.509862595915
+          },
+          "hours": "週二及週五公休 18:00-00:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/SNKE7rp3f7H8dKU2A?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "咖啡優先Koffie First",
+          "address": "台北市大同區承德路三段12號1樓",
+          "coordinate": {
+              "latitude": 25.0640342118929,
+              "longitude": 121.518071038243
+          },
+          "hours": "週五至週三 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225850711",
+          "website": "https://maps.app.goo.gl/GxM6ckUi3ohLWqo38?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "別所 shelter",
+          "address": "台北市大同區承德路三段51巷18號",
+          "coordinate": {
+              "latitude": 25.064408315325,
+              "longitude": 121.518730251736
+          },
+          "hours": "週一至週日 11:00-23:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225991811",
+          "website": "https://maps.app.goo.gl/UJP8Ne29cvMwkMNq5?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Cozy coffee",
+          "address": "台北市中山區中山北路二段168-2號1樓",
+          "coordinate": {
+              "latitude": 25.0635990939125,
+              "longitude": 121.522270953587
+          },
+          "hours": "週一至週日 07:00-19:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225850132",
+          "website": "https://maps.app.goo.gl/oBA9ZpEYD4uV3RRV8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "COFFEE FLAIR",
+          "address": "台北市中山區雙城街13巷11-1號",
+          "coordinate": {
+              "latitude": 25.0644022669866,
+              "longitude": 121.525167851736
+          },
+          "hours": "週一至週日 12:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225983707",
+          "website": "https://maps.app.goo.gl/9aKLeL79iw6cZDPJ6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "O'tree Cafe 歐樹咖啡",
+          "address": "台北市中山區民權東路一段56號",
+          "coordinate": {
+              "latitude": 25.0626018458373,
+              "longitude": 121.524579582423
+          },
+          "hours": "週一至週日 11:00-02:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225631022",
+          "website": "https://maps.app.goo.gl/bacDfcUpaWfd13VQ6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "微蜜jolie",
+          "address": "台北市中山區民權西路70巷45-2號",
+          "coordinate": {
+              "latitude": 25.0608840599432,
+              "longitude": 121.520537353587
+          },
+          "hours": "週一至週日 13:00-21:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0225211315",
+          "website": "https://maps.app.goo.gl/TTw1AYjyL8JmdG499?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "初二咖啡",
+          "address": "台北市大同區涼州街106號2樓",
+          "coordinate": {
+              "latitude": 25.0606560413814,
+              "longitude": 121.509805167079
+          },
+          "hours": "週一至週日 15:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/mDKz2kdVP9WAVq5YA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "北風社",
+          "address": "台北市大同區赤峰街47巷18號2樓",
+          "coordinate": {
+              "latitude": 25.0554864395902,
+              "longitude": 121.520192611258
+          },
+          "hours": "週五至週三 13:00-00:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "0225594019",
+          "website": "https://maps.app.goo.gl/87hZ9vMdrLk7xbth6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "刺青大叔的料理屋",
+          "address": "台北市大同區南京西路167巷13號1樓",
+          "coordinate": {
+              "latitude": 25.0553361435744,
+              "longitude": 121.5126159229
+          },
+          "hours": "週三至週一 12:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/tMAfW7xfVCdCMQ268?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "角公園咖啡",
+          "address": "台北市大同區太原路131號2樓",
+          "coordinate": {
+              "latitude": 25.053297743757,
+              "longitude": 121.516061980572
+          },
+          "hours": "週一至週日 10:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "0225561773",
+          "website": "https://maps.app.goo.gl/8HzDPjtyoPu2cWgA7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "SOALSO.cafe",
+          "address": "台北市大同區太原路11巷19號",
+          "coordinate": {
+              "latitude": 25.0498661699857,
+              "longitude": 121.515799024751
+          },
+          "hours": "週三至週日 11:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "phone": "0225523223",
+          "website": "https://maps.app.goo.gl/72Nw9ANM2Xx8kEnw8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "牡丹 Botan coffee",
+          "address": "新北市三重區元富二街2號",
+          "coordinate": {
+              "latitude": 25.0776549399728,
+              "longitude": 121.497996224752
+          },
+          "hours": "週五至週二 11:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0229840942",
+          "website": "https://maps.app.goo.gl/sPgATxfDTGKJvvsg8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "浮蛙 Fuwa Café",
+          "address": "台北市中山區中山北路一段126巷8號1樓",
+          "coordinate": {
+              "latitude": 25.051114930344,
+              "longitude": 121.521531992213
+          },
+          "hours": "週三至週六 15:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225371208",
+          "website": "https://maps.app.goo.gl/iJPBuKXeQMTcjK1o7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "翌日咖啡店",
+          "address": "台北市大安區潮州街176號",
+          "coordinate": {
+              "latitude": 25.0284375557708,
+              "longitude": 121.529773453586
+          },
+          "hours": "週一至週日 13:00-01:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/AcUK4CTPR555DSSJA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "咖啡黑潮",
+          "address": "台北市大安區和平東路一段141巷9-1號",
+          "coordinate": {
+              "latitude": 25.0280319847106,
+              "longitude": 121.530666440093
+          },
+          "hours": "週二至週日 13:00-18:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223570018",
+          "website": "https://maps.app.goo.gl/G9fRwtEwBFkkqGNY6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Sugar Man Cafe",
+          "address": "台北市大安區和平東路一段87-1號",
+          "coordinate": {
+              "latitude": 25.0273546857305,
+              "longitude": 121.525705911257
+          },
+          "hours": "週一至週日 14:00-04:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223969980",
+          "website": "https://maps.app.goo.gl/LiwAvW7DLETFXHKw8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "早秋咖啡 Cafe Macho",
+          "address": "台北市中正區晉江街10號",
+          "coordinate": {
+              "latitude": 25.0262561305127,
+              "longitude": 121.52126847078
+          },
+          "hours": "週一至週日 12:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223685029",
+          "website": "https://maps.app.goo.gl/KF8PhpEdvGopucaE7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "喜鵲咖啡",
+          "address": "台北市大安區羅斯福路三段269巷74號",
+          "coordinate": {
+              "latitude": 25.0211336610073,
+              "longitude": 121.531754468929
+          },
+          "hours": "週一至週日 13:00-22:45",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223628690",
+          "website": "https://maps.app.goo.gl/kmz9zG1kigodV33S6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "雪可屋",
+          "address": "台北市大安區溫州街74巷3弄2號1樓",
+          "coordinate": {
+              "latitude": 25.0197755750651,
+              "longitude": 121.532340651734
+          },
+          "hours": "週五至週三 12:00-00:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223673036",
+          "website": "https://maps.app.goo.gl/TPDuvCi2k8EGzc256?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "apple museum cafe",
+          "address": "台北市大安區溫州街74巷3弄5號",
+          "coordinate": {
+              "latitude": 25.0193254314857,
+              "longitude": 121.53213312475
+          },
+          "hours": "週一至週日 12:00-20:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223675243",
+          "website": "https://maps.app.goo.gl/o1g3xTwgcUkycVXQ8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "別處咖啡 Away cafe",
+          "address": "台北市中正區羅斯福路三段244巷9弄2-1號",
+          "coordinate": {
+              "latitude": 25.0171011565918,
+              "longitude": 121.530388351734
+          },
+          "hours": "週一至週日 13:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0223689713",
+          "website": "https://maps.app.goo.gl/rmdW3fsV58oPPgti7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "黃山羊咖啡店",
+          "address": "台北市文山區興隆路二段233巷6弄6號1樓",
+          "coordinate": {
+              "latitude": 25.0023245999448,
+              "longitude": 121.550967455436
+          },
+          "hours": "週一至週日 15:00-01:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/fcwkADBfgjz9S3cK9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Mars Coffee",
+          "address": "台北市文山區辛亥路四段235號",
+          "coordinate": {
+              "latitude": 25.0015434245778,
+              "longitude": 121.555078767077
+          },
+          "hours": "週二至週日 10:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0286638080",
+          "website": "https://maps.app.goo.gl/7AVExSM6V85fd6ih7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Serene day cafe",
+          "address": "台北市文山區興隆路三段192巷2弄2號",
+          "coordinate": {
+              "latitude": 24.998143529692,
+              "longitude": 121.558391549883
+          },
+          "hours": "週四至週一 08:00-17:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "0282301992",
+          "website": "https://maps.app.goo.gl/1cnZuxrNybRwFg6q6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "雨。聲。咖。啡",
+          "address": "台北市文山區景華街28號",
+          "coordinate": {
+              "latitude": 24.9951691542971,
+              "longitude": 121.542663340092
+          },
+          "hours": "週三至週一 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0229300078",
+          "website": "https://maps.app.goo.gl/huQmVQQXZEdoYvag7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "JOHN DOE CAFÉ 無名氏咖啡",
+          "address": "台北市文山區羅斯福路五段225號",
+          "coordinate": {
+              "latitude": 25.0021634471165,
+              "longitude": 121.539200622898
+          },
+          "hours": "週一至週日 09:30-21:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0229336566",
+          "website": "https://maps.app.goo.gl/YhvKvaW2ytjrewzk7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Tiamomo 提拉摸摸",
+          "address": "新北市永和區國中路148號",
+          "coordinate": {
+              "latitude": 25.0073072083635,
+              "longitude": 121.523044409406
+          },
+          "hours": "週五至週一 11:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/v8nAbUN1aESvzwXs9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "紅茶排練所Onday",
+          "address": "新北市永和區信義路5巷2號1樓",
+          "coordinate": {
+              "latitude": 25.0120097769077,
+              "longitude": 121.514462595913
+          },
+          "hours": "週一至週日 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0222323813",
+          "website": "https://maps.app.goo.gl/FTuw2GndzKGKtYvU9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "旭舊 ShiujiouCafe’",
+          "address": "新北市板橋區中山路一段206巷39號",
+          "coordinate": {
+              "latitude": 25.0129430265092,
+              "longitude": 121.470608767078
+          },
+          "hours": "週一至週日 11:00-19:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/a7AEFD2AYukA7NRa8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "老地方咖啡 Uknowhere Café",
+          "address": "新北市板橋區公園街52巷3號",
+          "coordinate": {
+              "latitude": 25.0082449144953,
+              "longitude": 121.461787211257
+          },
+          "hours": "週一至週日 10:30-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/W7ALy3FH37fkC4DQA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "文鳥咖啡",
+          "address": "新北市板橋區國泰街120號",
+          "coordinate": {
+              "latitude": 25.0066472168993,
+              "longitude": 121.466589097764
+          },
+          "hours": "週四至週一 10:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/kiKEMfEtkbjMeGgFA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Ferment Café",
+          "address": "新北市板橋區館前西路213巷7號1樓",
+          "coordinate": {
+              "latitude": 25.008386014283,
+              "longitude": 121.454561668929
+          },
+          "hours": "週三至週日 09:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0910992771",
+          "website": "https://maps.app.goo.gl/NyS6nGvxRZUrr3jt7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "工寓咖啡 café industry",
+          "address": "新北市新莊區中正路593號2樓",
+          "coordinate": {
+              "latitude": 25.0322815626607,
+              "longitude": 121.432922338242
+          },
+          "hours": "週一至週日 11:00-21:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0229040024",
+          "website": "https://maps.app.goo.gl/ULtxTeNfWjkMvsvGA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "哈姆喫茶 hamu kissa",
+          "address": "新北市新莊區中正路514巷25號",
+          "coordinate": {
+              "latitude": 25.033112692985,
+              "longitude": 121.432771382422
+          },
+          "hours": "週一至週日 12:00-21:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0229042722",
+          "website": "https://maps.app.goo.gl/c3zE8kPW4paV5WbL9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "何止",
+          "address": "新北市新莊區新興街27巷2號",
+          "coordinate": {
+              "latitude": 25.0375950496433,
+              "longitude": 121.450629226601
+          },
+          "hours": "週二及週日公休 12:00-17:30",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/YaL6i5NdDBpkNHzp9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "鄰咖逼Neighbor-Gabee",
+          "address": "新北市三重區力行路二段123巷2號",
+          "coordinate": {
+              "latitude": 25.0767473112873,
+              "longitude": 121.483176849885
+          },
+          "hours": "週四至週二 10:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0916157871",
+          "website": "https://maps.app.goo.gl/fyjVUTHEfHZscHvCA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "不如咖啡 BLUBLU Kafe",
+          "address": "新北市三重區集英路126號",
+          "coordinate": {
+              "latitude": 25.0875989283122,
+              "longitude": 121.484943524752
+          },
+          "hours": "週一至週日 08:00-21:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228574906",
+          "website": "https://maps.app.goo.gl/hZDTDTzF52HpB6fGA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "DoDidDone Coffee Research",
+          "address": "台北市松山區民權東路三段103巷3號",
+          "coordinate": {
+              "latitude": 25.0626916951369,
+              "longitude": 121.545234584274
+          },
+          "hours": "週日至週五 08:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0227160320",
+          "website": "https://maps.app.goo.gl/Py43ducYtyJt9emY8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "TSUTAYA BOOKSTORE 松山店",
+          "address": "台北市信義區松山路11號3樓",
+          "coordinate": {
+              "latitude": 25.0494996115384,
+              "longitude": 121.578406684273
+          },
+          "hours": "週一至週日 11:00-21:30",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0225280616",
+          "website": "https://maps.app.goo.gl/CMF8375AX9sAzRqx9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "上樓看看 咖啡",
+          "address": "台北市信義區忠孝東路五段165巷3弄6號",
+          "coordinate": {
+              "latitude": 25.0416586845291,
+              "longitude": 121.569131428452
+          },
+          "hours": "週一至週日 11:30-22:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0287871782",
+          "website": "https://maps.app.goo.gl/5vKAp21T9J8PTU36A?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "SAND COFFEE",
+          "address": "台北市信義區吳興街156巷40弄4號",
+          "coordinate": {
+              "latitude": 25.028689998244,
+              "longitude": 121.560017995914
+          },
+          "hours": "週三至週日 14:00-23:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/c7fxJb7vdUYx83Ar8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "yet coffee x deep work",
+          "address": "台北市信義區信義路五段150巷11弄1號1樓",
+          "coordinate": {
+              "latitude": 25.028033877605,
+              "longitude": 121.56887292475
+          },
+          "hours": "週一至週日 11:00-22:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/nu5TiR7oxzCu5V1p6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "The Folks",
+          "address": "台北市大安區四維路208巷3-1號",
+          "coordinate": {
+              "latitude": 25.0268455725694,
+              "longitude": 121.547626295914
+          },
+          "hours": "週五至週三 08:00-15:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座數量有限",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "website": "https://maps.app.goo.gl/2uNJozW1G8L4zBwY7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "未央咖啡店",
+          "address": "台北市大安區四維路208巷10號",
+          "coordinate": {
+              "latitude": 25.0264124655987,
+              "longitude": 121.547410167078
+          },
+          "hours": "週一至週日 13:00-01:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0227032331",
+          "website": "https://maps.app.goo.gl/NVmktHDjt85nCiwC7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Ling Day Sofa",
+          "address": "台北市大安區和平東路二段175巷46號2樓",
+          "coordinate": {
+              "latitude": 25.0272352355291,
+              "longitude": 121.541808226601
+          },
+          "hours": "週二至週日 14:00-22:00",
+          "lighting": "光線昏暗",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0227080550",
+          "website": "https://maps.app.goo.gl/S1HSNLFRj34jtp5b8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "潘寓 Pan's Haunt",
+          "address": "台北市大安區瑞安街133號",
+          "coordinate": {
+              "latitude": 25.027157829012,
+              "longitude": 121.539818038242
+          },
+          "hours": "週一至週日 13:00-21:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/smF4z6FcBQc7zzsK9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "2J CAFE",
+          "address": "台北市大安區建國南路二段79巷9號",
+          "coordinate": {
+              "latitude": 25.0310918530354,
+              "longitude": 121.538438368929
+          },
+          "hours": "週一至週日 11:30-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "0227003783",
+          "website": "https://maps.app.goo.gl/ZD864NV28rxDwz7GA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Jack & NaNa",
+          "address": "台北市大安區和平東路一段157巷11號",
+          "coordinate": {
+              "latitude": 25.026965693861,
+              "longitude": 121.531686968929
+          },
+          "hours": "週四至週二 11:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0223947316",
+          "website": "https://maps.app.goo.gl/qVEmdqXxFMhLkDSJ8?g_st=com.google.maps.preview.copy" 
+      },
+      {
+          "name": "羊跳蚤",
+          "address": "台北市大安區溫州街49巷2號",
+          "coordinate": {
+              "latitude": 25.0216201698328,
+              "longitude": 121.53315782475
+          },
+          "hours": "週一至週日 13:00-01:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/ESUvsdjHru7ECmBQ6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "SOMNI COFFEE",
+          "address": "新北市淡水區中正路258號",
+          "coordinate": {
+              "latitude": 25.1713530679722,
+              "longitude": 121.438905568934
+          },
+          "hours": "週三至週一 11:00-18:30",
+          "lighting": "光線明亮",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0968852112",
+          "website": "https://maps.app.goo.gl/gkhxdiLMTLAPXCSS6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "去年在馬倫巴",
+          "address": "新北市淡水區中正路233之1號",
+          "coordinate": {
+              "latitude": 25.1729779559488,
+              "longitude": 121.435534922904
+          },
+          "hours": "週一至週日 14:00-02:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0226219198",
+          "website": "https://maps.app.goo.gl/wqiTaYHAzZo99vCY9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "天使熱愛的生活‧La Vie Rêvée Des Anges Cafe",
+          "address": "新北市淡水區中正路233之1號",
+          "coordinate": {
+              "latitude": 25.1731658942603,
+              "longitude": 121.435701799621
+          },
+          "hours": "週一至週日 15:00-23:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0286312928",
+          "website": "https://maps.app.goo.gl/KfwrHCSwvsWA58AV8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "匞 jiangspace",
+          "address": "新北市淡水區觀海路26號",
+          "coordinate": {
+              "latitude": 25.1818979523507,
+              "longitude": 121.418328538248
+          },
+          "hours": "週三至週日 14:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228051250",
+          "website": "https://maps.app.goo.gl/ZYUwRa1TnhUsuhi97?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "槑室珈琲fineroom",
+          "address": "新北市淡水區學府路51巷3弄7號",
+          "coordinate": {
+              "latitude": 25.1695748404728,
+              "longitude": 121.447207409411
+          },
+          "hours": "週二至週日 12:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/r2gNu5yrnVxxnSws5?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "再再咖啡 à plus",
+          "address": "新北市淡水區中正東路35巷23號",
+          "coordinate": {
+              "latitude": 25.1691946328605,
+              "longitude": 121.446497478724
+          },
+          "hours": "週一至週日 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/XDXeP34yE83pXFwb6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "1975 Antique’s Cafe Tea Room",
+          "address": "台北市北投區大業路719之1號",
+          "coordinate": {
+              "latitude": 25.137605030323,
+              "longitude": 121.501925724753
+          },
+          "hours": "週一至週日 12:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228976885",
+          "website": "https://maps.app.goo.gl/qcphKVJtACUwXFjr9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "1996 COFFEE 台北深夜咖啡廳",
+          "address": "台北市北投區立功街19號",
+          "coordinate": {
+              "latitude": 25.1248698699497,
+              "longitude": 121.467883382425
+          },
+          "hours": "週一至週日 09:00-18:30",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228985289",
+          "website": "https://maps.app.goo.gl/DJHHT9YT2PzTPYoz8?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Third Place Coffee 第三好去處咖啡",
+          "address": "新北市淡水區民生路93號",
+          "coordinate": {
+              "latitude": 25.1386383810346,
+              "longitude": 121.463810538246
+          },
+          "hours": "週三至週一 09:00-20:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228094901",
+          "website": "https://maps.app.goo.gl/dzvhumnHNUweKJQ66?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "A N G L E II",
+          "address": "台北市北投區榮華三路36號1 樓",
+          "coordinate": {
+              "latitude": 25.1143192128781,
+              "longitude": 121.521001653588
+          },
+          "hours": "週一至週日 11:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228261870",
+          "website": "https://maps.app.goo.gl/U161R4fUezxbstnh9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "穠咖啡 Nongcoffeeroaster",
+          "address": "台北市北投區明德路146號",
+          "coordinate": {
+              "latitude": 25.1106610006337,
+              "longitude": 121.520832295917
+          },
+          "hours": "週三至週一 11:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0228286210",
+          "website": "https://maps.app.goo.gl/MMuJgMfvmjdZspwc7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Seul Café 寂室",
+          "address": "台北市士林區士東路260-1號",
+          "coordinate": {
+              "latitude": 25.1133631585949,
+              "longitude": 121.536290753589
+          },
+          "hours": "週一至週日 11:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "0228347998",
+          "website": "https://maps.app.goo.gl/f9sAWgmnwG4m79FL6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "休息咖啡館",
+          "address": "台北市北投區西安街二段259巷6號",
+          "coordinate": {
+              "latitude": 25.1200501165216,
+              "longitude": 121.50716561126
+          },
+          "hours": "週一至週日 09:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0900752410",
+          "website": "https://maps.app.goo.gl/uuoS25NXZyYJGgCs7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "INFINITY .Yes Lounge",
+          "address": "台北市士林區中山北路七段48號2樓",
+          "coordinate": {
+              "latitude": 25.120742574546,
+              "longitude": 121.531408467081
+          },
+          "hours": "週四至週一 12:00-23:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "website": "https://maps.app.goo.gl/v8u6fgnNCDbZsYEe7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Oasis Coffee Roasting Lab",
+          "address": "台北市士林區中山北路七段14巷15號一樓",
+          "coordinate": {
+              "latitude": 25.1192132613616,
+              "longitude": 121.531896280574
+          },
+          "hours": "週三至週日 10:00-18:00",
+          "lighting": "光線明亮",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228730877",
+          "website": "https://maps.app.goo.gl/Ptt8K8fhMXGqYVJW7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "ALL DAY ROASTING COMPANY 天母店",
+          "address": "台北市士林區忠誠路二段164號",
+          "coordinate": {
+              "latitude": 25.1157179392577,
+              "longitude": 121.533035824753
+          },
+          "hours": "週一至週日 07:30-22:00",
+          "lighting": "光線柔和",
+          "noise": "有些吵雜",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228722286",
+          "website": "https://maps.app.goo.gl/FsonurtXogss3ti97?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "MUSAND COFFEE GRANARY 漠杉咖啡",
+          "address": "台北市士林區忠誠路一段149號",
+          "coordinate": {
+              "latitude": 25.106835941734,
+              "longitude": 121.529996995917
+          },
+          "hours": "週一至週日 07:30-21:30",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228319099",
+          "website": "https://maps.app.goo.gl/DVjjtUoEAThpQFnGA?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Bean Gang 黑豆幫",
+          "address": "台北市士林區雨聲街63號",
+          "coordinate": {
+              "latitude": 25.1034004328398,
+              "longitude": 121.528450995916
+          },
+          "hours": "週一至週日 10:00-22:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0937078589",
+          "website": "https://maps.app.goo.gl/qLXAG9JLF4NzLPqW7?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Chüan Chuan Coffee",
+          "address": "台北市士林區福壽街45號1樓",
+          "coordinate": {
+              "latitude": 25.0968489607808,
+              "longitude": 121.525285882424
+          },
+          "hours": "週一至週日 13:00-18:00",
+          "lighting": "光線柔和",
+          "noise": "音量適中",
+          "outlets": "部分區域有插座",
+          "seating": "偶爾需要等待",
+          "timeLimit": "有時間限制",
+          "phone": "0987723529",
+          "website": "https://maps.app.goo.gl/NDn9tgK7grjNJbkV9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Vagabond Cafe 流浪觀點",
+          "address": "台北市士林區福壽街13號",
+          "coordinate": {
+              "latitude": 25.0962600138635,
+              "longitude": 121.525570153588
+          },
+          "hours": "週三至週日 11:00-00:00",
+          "lighting": "光線昏暗",
+          "noise": "有些吵雜",
+          "outlets": "部分區域有插座",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228311195",
+          "website": "https://maps.app.goo.gl/5m9RvD66nUgwnvd86?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Modism Café 摩德年代 士林店",
+          "address": "台北市士林區中正路235巷29號",
+          "coordinate": {
+              "latitude": 25.0946367551987,
+              "longitude": 121.526291668931
+          },
+          "hours": "週四至週二 14:30-00:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0228837012",
+          "website": "https://maps.app.goo.gl/PZGWQ6oJsjtpY4ni9?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "Cobalt Blue Coffee 鈷藍咖啡",
+          "address": "台北市信義區仁愛路四段502號",
+          "coordinate": {
+              "latitude": 25.0373046225458,
+              "longitude": 121.560929541944
+          },
+          "hours": "週一至週日 10:00-19:00",
+          "lighting": "光線柔和",
+          "noise": "安靜環境",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "無時間限制",
+          "phone": "0227585622",
+          "website": "https://maps.app.goo.gl/ipLdQKyr4Y9K9rPY6?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "菸花Op.118.2",
+          "address": "台北市大同區迪化街一段14巷37號菸花一樓",
+          "coordinate": {
+              "latitude": 25.0542118646171,
+              "longitude": 121.509357795915
+          },
+          "hours": "週五至週三 10:30-20:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座數量有限",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0225556700",
+          "website": "https://maps.app.goo.gl/3fmBpmoegadGU8478?g_st=com.google.maps.preview.copy"
+      },
+      {
+          "name": "dark corner cafe",
+          "address": "台北市萬華區漢口街二段90巷8弄3號二樓",
+          "coordinate": {
+              "latitude": 25.0460644575477,
+              "longitude": 121.504231697766
+          },
+          "hours": "週三、六、日公休 19:00-03:00",
+          "lighting": "光線昏暗",
+          "noise": "安靜環境",
+          "outlets": "插座充足",
+          "seating": "經常有空位",
+          "timeLimit": "有時間限制",
+          "phone": "0908375113",
+          "website": "https://maps.app.goo.gl/g17X2zDZMWPv3ZE59?g_st=com.google.maps.preview.copy"
+      },
+      {
+        "name":"綠咖生活概念店greengreencoffee",
+        "address": "台北市大安區延吉街244號2樓",
+        "coordinate":  {
+            "latitude": 25.035710431528145,
+            "longitude": 121.55547538004292
+        },
+        "hours":" 週三至週一 11:00~18:00",
+        "lighting":"光線明亮",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0227032130",
+        "website": "https://maps.app.goo.gl/Zrd7Bo4ws8icFECS7"
+    },
+    {
+        "name":"好適山坡GUHill",
+        "address": "新北市三峽區竹崙路138號",
+        "coordinate":  {
+            "latitude": 24.909494155200626,
+            "longitude": 121.43388469538148
+        },
+        "hours":"週五至週日 11:00~19:00",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0226681186",
+        "website": "https://maps.app.goo.gl/ftYagyRLmSVfSCDH8"
+    },
+    {
+        "name":"QM159清琳咖啡",
+        "address": "新北市三峽區中山路65號",
+        "coordinate":  {
+            "latitude": 24.93484838140976, 
+            "longitude": 121.36740581390826 
+        },
+        "hours":"週一至週日 11:00~19:00",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "經常有空位",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0910382062",
+        "website": "https://maps.app.goo.gl/xsSHW5KDkmLwnKiD8"
+    },
+    {
+        "name":"老柴咖啡",
+        "address": "新北市三峽區大觀路113號",
+        "coordinate":  {
+            "latitude": 24.945450557320303,
+            "longitude":121.37462751072522  
+        },
+        "hours":"週二至週日 09:00~20:00 週一 09:00~18:00",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "經常有空位",
+        "timeLimit":"無時間限制" ,
+        "phone": "0235012656",
+        "website": "https://maps.app.goo.gl/7yqGvECApyZMMgop7"
+    },
+    {
+        "name":"凱莉日嚐",
+        "address": "新北市三峽區學成路285號",
+        "coordinate":  {
+            "latitude": 24.94378950799226,
+            "longitude":121.37609778188941  
+        },
+        "hours":"週一至週日 08:30~21:00",
+        "lighting":"光線明亮",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "0226721213",
+        "website": "https://maps.app.goo.gl/gmYGsoNkRpXUndQUA"
+    },
+    {
+        "name":"SuFu lab書福咖啡店(公園店)",
+        "address": "新北市三峽區中華路15巷11號",
+        "coordinate":  {
+            "latitude": 24.931731000432762,
+            "longitude":121.37380586839605  
+        },
+        "hours":"週六至週三 11:30~20:00",
+        "lighting":"光線柔和",
+        "noise": "有些吵雜",
+        "outlets":"部份區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0928-123-724",
+        "website": "https://maps.app.goo.gl/QZJYxsCD6VxK2bbP6"
+    },
+    {
+        "name":"LAIFA coffee shot來發咖啡峽",
+        "address": "新北市三峽區國光街73號",
+        "coordinate":  {
+            "latitude":24.938497719316015,
+            "longitude":121.37403008003994  
+        },
+        "hours":"週一至週六 10:00~20:00 週日10:00~18:00 每月第二週星期二公休",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時",
+        "phone": "0226736749",
+        "website": "https://maps.app.goo.gl/jzt8GtgmUHE9bavP6"
+    },
+    {
+        "name":"MULI coffee 沐里咖啡",
+        "address": "新北市三峽區大同路39巷7號1樓",
+        "coordinate":  {
+            "latitude":24.928192410695182,
+            "longitude":121.376944464697
+        },
+        "hours":"周四至週二 08:00~18:00",
+        "lighting":"光線明亮",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "經常有空位",
+        "timeLimit":"無時間限制" ,
+        "phone": "02-86713456",
+        "website": "https://maps.app.goo.gl/NUUVCXrwgarBafVk6"
+    },
+    {
+        "name":"入日咖啡",
+        "address": "新北市三峽區永安街171號",
+        "coordinate":  {
+            "latitude": 24.927407682860945,
+            "longitude":121.37328085305332
+        },
+        "hours":"週一至週五 11:00~19:00 週六至週日 11:00~20:00",
+        "lighting":"光線柔和",
+        "noise": "安靜環境",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0958513777",
+        "website": "https://maps.app.goo.gl/qEVj3XiAwjBtPRp38"
+    },
+    {
+        "name":"好人好室x七二聚場",
+        "address": "台北市中山區中山北路二段72巷18-1號3樓",
+        "coordinate":  {
+            "latitude": 25.057215098082406,
+            "longitude": 121.52153028004368
+        },
+        "hours":"週四至週二 11:00~19:00",
+        "lighting":"光線柔和",
+        "noise": "安靜環境",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "0225221280",
+        "website": "https://maps.app.goo.gl/SXS3th1ZASEoFhr97"
+    },
+    {
+        "name":"Rendezvous秘點",
+        "address": "台北市松山區復興北路141巷6弄9號",
+        "coordinate":  {
+            "latitude": 25.054102164799684,
+            "longitude": 121.54493681072871
+        },
+        "hours":"週一至週日 10:30~19:00",
+        "lighting":"光線明亮",
+        "noise": "有些吵雜",
+        "outlets":"插座充足",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "0913526676",
+        "website": "https://maps.app.goo.gl/6GgWnV1DPSoGx6yW8"
+    },
+    {
+      "name":"Walk in cafe 東湖一店",
+      "address": "新北市林口區東湖路155號",
+      "coordinate":  {
+          "latitude":25.073070291899423,
+          "longitude":121.38290699353728
+      },
+      "hours":"週一至週五 09:30~18:00 週六至週日 09:00~21:00",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0226022736",
+      "website": "https://maps.app.goo.gl/5rt2ArCakQF39hSy5"
+    },
+    {
+      "name":"茉合桂物 藝樹咖啡館",
+      "address": "新北市林口區四維路52-1號1樓",
+      "coordinate":  {
+          "latitude": 25.079575680421375,     
+          "longitude":121.37528751072946
+      },
+      "hours":"週四至週二 11:00~19:00",
+      "lighting":"光線柔和",
+      "noise": "音量適中",
+      "outlets":"插座充足",
+      "seating": "經常有空位",
+      "timeLimit":"無時間限制" ,
+      "phone": "0286011012",
+      "website": "https://maps.app.goo.gl/RrFGAPg3uVvEuYok9"
+    }, 
+    {
+      "name":"白光咖啡White Light Coffee",
+      "address": "新北市林口區文化一路二段299號",
+      "coordinate":  {
+          "latitude":25.085735164043392,
+          "longitude":121.38523818004454
+    
+      },
+      "hours":"週三至週日 08:00~18:00",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0902320382",
+      "website": "https://maps.app.goo.gl/P3F5SAt927eH4rGE9"
+    },
+    {
+      "name":"Lilliane Bakery 莉莉安可頌烘焙專門店",
+      "address": "新北市林口區信義路228號",
+      "coordinate":  {
+          "latitude":25.081610766592018,
+          "longitude":121.37675875305823
+      },
+      "hours":"10:00~20:00",
+      "lighting":"光線柔和",
+      "noise": "有些吵雜",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0226016790",
+      "website": "https://maps.app.goo.gl/6NC3gWDV6Wumxb9v8"
+    }, 
+    {
+      "name":"胚 pae venue",
+      "address": "新北市林口區井泉街76-1號",
+      "coordinate":  {
+          "latitude":25.069124795458265,
+          "longitude":121.3584274818936
+      },
+      "hours":"週一至週五 10:00~18:00 不定期公休詳見IG",
+      "lighting":"光線明亮",
+      "noise": "有些吵雜",
+      "outlets":"插座充足",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0226006611",
+      "website": "https://maps.app.goo.gl/qbbYYgC4NJNeEqTF9"
+    }, 
+    {
+      "name":"江南咖啡 JN CAFE",
+      "address": "新北市林口區竹林一路",
+      "coordinate":  {
+          "latitude":25.085368782675065,
+          "longitude":121.3870216242228
+      },
+      "hours":"週三至週五 11:00~18:00 週六至週日 11:00~18:30",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"插座充足",
+      "seating": "經常有空位",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0907310578",
+      "website": "https://maps.app.goo.gl/T4oE1e4nYhbAPFV49"
+    }, 
+    {
+      "name":"IDK Cafe&Brunch",
+      "address": "新北市林口區文化三路一段577巷2號",
+      "coordinate":  {
+          "latitude":25.07692057594365,
+          "longitude":121.37072669538682
+      },
+      "hours":"週二至週日 09:00~17:00",
+      "lighting":"光線昏暗",
+      "noise": "有些吵雜",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0226007287",
+      "website": "https://maps.app.goo.gl/TKRHL1oqcRZ1MeTV7"
+    }, 
+    {
+      "name":"Grato Coffee",
+      "address": "244新北市林口區南勢街33號",
+      "coordinate":  {
+          "latitude":25.073955733288724,
+          "longitude":121.3644250395651
+      },
+      "hours":"週一至週日 08:00~17:00",
+      "lighting":"光線柔和",
+      "noise": "有些吵雜",
+      "outlets":"部分區域有插座",
+      "seating": "經常有空位",
+      "timeLimit":"無時間限制" ,
+      "phone": "0226008880",
+      "website": "https://maps.app.goo.gl/NbNyCaKh9JSykYuE6"
+    }, 
+    {
+      "name":"時間之旅",
+      "address": "新北市蘆洲區忠孝路56號",
+      "coordinate":  {
+          "latitude":25.08484769758648,
+          "longitude":121.47159305120893
+      },
+      "hours":"週三至週一 08:00~18:30",
+      "lighting":"光線柔和",
+      "noise": "有些吵雜",
+      "outlets":"插座充足",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0282813463",
+      "website": "https://maps.app.goo.gl/HkLWoMJra8eJbbki7"
+    },
+    {
+      "name":"Lusabidan 咖啡烘焙所",
+      "address": "新北市蘆洲區中正路185巷68弄3號",
+      "coordinate":  {
+          "latitude":25.085007722455636,
+          "longitude":121.46651432665236
+      },
+      "hours":"週二至週日 10:00~18:00",
+      "lighting":"光線柔和",
+      "noise": "安靜環境",
+      "outlets":"部分區域有插座",
+      "seating": "經常有空位",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0228482762",
+      "website": "https://maps.app.goo.gl/cCLhRFQhB4iQryX36"
+    },
+    {
+      "name":"驚嘆號咖啡",
+      "address": "新北市三重區慈愛街9號",
+      "coordinate":  {
+          "latitude":25.078810573392328,
+          "longitude":121.48502533771554
+      },
+      "hours":"週四至週二 11:00~21:00",
+      "lighting":"光線昏暗",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0222868278",
+      "website": "https://maps.app.goo.gl/fZW8kc6YLzrECmAy8"
+    },
+    {
+      "name":"ハーフ珈琲 (hafu coffee)",
+      "address": "新北市板橋區莒光路39巷9號1樓",
+      "coordinate":  {
+          "latitude":25.025219124021607,
+          "longitude":121.47074849723465
+      },
+      "hours":"週一至週日 11:00~18:00 不固定休",
+      "lighting":"光線柔和",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "無",
+      "website": "https://maps.app.goo.gl/xQRZ87sGoMjy9qqF6"
+    },
+    {
+      "name":"MusT cafe 必要咖啡",
+      "address": "台北市大安區忠孝東路四段205巷29弄8號1樓",
+      "coordinate":  {
+          "latitude":25.043194683374924,
+          "longitude":121.5522979850982
+      },
+      "hours":"週一至週五 12:00~21:00 週六至週日 11:30~21:30",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "經常有座位",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0227791027",
+      "website": "https://maps.app.goo.gl/JSyTichjFZo6FHw56"
+    },
+    {
+      "name":"春秋書店",
+      "address": "台北市大同區赤峰街41巷7號",
+      "coordinate":  {
+          "latitude":25.0552052979555,
+          "longitude":121.52014108004356
+      },
+      "hours":"週一至週日 12:00~22:00",
+      "lighting":"光線柔和",
+      "noise": "安靜環境",
+      "outlets":"插座充足",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0225591988",
+      "website": "https://maps.app.goo.gl/ZzTc1G2nJ55zcJBf7"
+    },
+    {
+      "name":"Paper St. Coffee Company 紙街咖啡",
+      "address": "台北市中正區八德路一段28號",
+      "coordinate":  {
+          "latitude":25.043775940829942,
+          "longitude":121.5302699107283
+      },
+      "hours":"週一至週日 09:00~20:00",
+      "lighting":"光線柔和",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0223510202",
+      "website": "https://maps.app.goo.gl/FpytWzvyuTDHFHiPA"
+    },
+    {
+      "name":"陋室咖啡 ROAST COFFEE",
+      "address": "新北市板橋區民有街63號",
+      "coordinate":  {
+          "latitude":25.02684774347096,
+          "longitude":121.46513485120698
+      },
+      "hours":"週一、二、四、六 12:00~18:00 週五13:30~19:00",
+      "lighting":"光線柔和",
+      "noise": "安靜環境",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"無時間限制" ,
+      "phone": "0282513317",
+      "website": "https://maps.app.goo.gl/i72GYRJBDnzM4bwD7"
+    },
+    {
+      "name":"Butter Cake Café奶油蛋糕咖啡廳",
+      "address": "新北市新店區北新路三段105巷11號",
+      "coordinate":  {
+          "latitude":24.986208889906113,
+          "longitude":121.53948690870504
+      },
+      "hours":"週一至週五 11:00~18:00 週六至週日 10:00~18:00",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0229120568",
+      "website": "https://maps.app.goo.gl/8WLxY9AX8hX2oNCbA"
+    },
+    {
+      "name":"Buttery Café",
+      "address": "新北市板橋區區運路10號1樓",
+      "coordinate":  {
+          "latitude":25.015457362579767,
+          "longitude":121.46704581047133
+      },
+      "hours":"週三至週日 10:00~17:00",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "經常有空位",
+      "timeLimit":"無時間限制" ,
+      "phone": "0229597703",
+      "website": "https://maps.app.goo.gl/eHt2YcAAVYyXqNFV7"
+    },
+    {
+      "name":"Instil Coffee",
+      "address": "台北市大同區承德路一段77巷25號",
+      "coordinate":  {
+          "latitude":25.053098206986533,
+          "longitude":121.51821466856772
+      },
+      "hours":"週一至週日 10:00~18:00",
+      "lighting":"光線明亮",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "經常有空位",
+      "timeLimit":"無時間限制" ,
+      "phone": "0916359014",
+      "website": "https://maps.app.goo.gl/any2hDEun7UcYaih7"
+    },
+    {
+      "name":"自由·之丘",
+      "address": "台北市文山區木新路二段69巷1號1樓",
+      "coordinate":  {
+          "latitude":24.98639498564068,
+          "longitude":121.57081776931817
+      },
+      "hours":"週三至週一 14:00-00:00",
+      "lighting":"光線柔和",
+      "noise": "安靜環境",
+      "outlets":"插座充足",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0229375585",
+      "website": "https://maps.app.goo.gl/rQYPQzReApvmRWK37"
+    },
+    {
+      "name":"Costumice Café",
+      "address": "台北市大安區忠孝東路四段223巷71弄6號1樓",
+      "coordinate":  {
+          "latitude":25.043844731328655,
+          "longitude":121.5525413576684
+      },
+      "hours":"週一至週五 09:30~18:00 週六至週日 09:00~21:00",
+      "lighting":"光線柔和",
+      "noise": "音量適中",
+      "outlets":"插座數量有限",
+      "seating": "偶爾需要等待",
+      "timeLimit":"客滿才限時" ,
+      "phone": "0227118086",
+      "website": "https://maps.app.goo.gl/XUVmHfCCxJ3zE3V99"
+    },
+    {
+        "name":"嗜飲者 DrinkHolic",
+        "address": "新北市新店區民族路19號1樓",
+        "coordinate":  {
+            "latitude":24.97877140691388,
+            "longitude":121.54127958189068
+        },
+        "hours":"週日至週二 11:00~19:00 週四、週六 11:00~19:00",
+        "lighting":"光線明亮",
+        "noise": "音量適中",
+        "outlets":"插座充足",
+        "seating": "經常有空位",
+        "timeLimit":"無時間限制" ,
+        "phone": "0958762384",
+        "website": "https://maps.app.goo.gl/4vDrLhq64UHRcitq8"
+    },
+    {
+        "name":"貪心咖啡館",
+        "address": "新北市金山區磺港路181號",
+        "coordinate":  {
+            "latitude":25.22697357283001,
+            "longitude":121.64559459354219
+        },
+        "hours":"週日至週二 11:30~19:00 週五至週六11:30~19:00",
+        "lighting":"光線柔和",
+        "noise": "有些吵雜",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "0224989611",
+        "website": "https://maps.app.goo.gl/1asyShBzvD2iUwbk6"
+    },
+    {
+        "name":"虎虎咖啡 自家烘焙",
+        "address": "新北市永和區竹林路39巷3-1號",
+        "coordinate":  {
+            "latitude":25.01463599482629, 
+            "longitude":121.51810402422046
+        },
+        "hours":"週一至週日 11:00~19:00",
+        "lighting":"光線明亮",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "經常有空位",
+        "timeLimit":"無時間限制" ,
+        "phone": "0289251885",
+        "website": "https://maps.app.goo.gl/pgXLHj9qMqZdnFRq9"
+    },
+    {
+        "name":"重本書店 Weight Books",
+        "address": "台北市中山區南京東路二段138巷9號1樓",
+        "coordinate":  {
+            "latitude":25.051435973382976, 
+            "longitude":121.5339271107286
+        },
+        "hours":"週四13:00~21:00 週五至週六13:00~21:00 週日至週一13:00~21:00",
+        "lighting":"光線柔和",
+        "noise": "安靜環境",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "0225170787",
+        "website": "https://maps.app.goo.gl/qNQQ3LVi3ag9iT9y9"
+    },
+    {
+        "name":"羊毛與花・東門 youmoutoohana Coffee",
+        "address": "台北市中正區信義路一段9-1號",
+        "coordinate":  {
+            "latitude":25.03687992995182, 
+            "longitude":121.52224049538552
+        },
+        "hours":"週一至週日11:00~21:00",
+        "lighting":"光線昏暗",
+        "noise": "音量適中",
+        "outlets":"插座充足",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "0223567858",
+        "website": "https://maps.app.goo.gl/qrg8UEdqXRdEZuea8"
+    },
+    {
+        "name":"迪化半日茶屋",
+        "address": "台北市大同區迪化街一段133號",
+        "coordinate":  {
+            "latitude":25.057805873058992,          
+            "longitude":121.50970603586555
+        },
+        "hours":"週一至週日 10:00~18:30",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0225528081",
+        "website": "https://maps.app.goo.gl/LhtmoG27qUuAViN6A"
+    },
+    {
+        "name":"COFFEE PROFILER 波凡樂咖啡",
+        "address": "新北市淡水區淡金路38巷35弄3號1樓",
+        "coordinate":  {
+            "latitude":25.162249310845887, 
+            "longitude":121.45772685259196
+        },
+        "hours":"星期二至星期日09:00~18:00",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"插座充足",
+        "seating": "經常有空位",
+        "timeLimit":"無時間限制" ,
+        "phone": "0976173270",
+        "website": "https://maps.app.goo.gl/HQsBWuVETx8wREH66"
+    },
+    {
+        "name":"鬧蟬烘豆工作室",
+        "address": "234010新北市永和區保順路15號1樓",
+        "coordinate":  {
+            "latitude":25.009754352161007,
+            "longitude":121.5041064953846
+        },
+        "hours":"週五至週一11:00~18:00",
+        "lighting":"光線明亮",
+        "noise": "安靜環境",
+        "outlets":"部分區域有插座",
+        "seating": "偶爾需要等待",
+        "timeLimit":"無時間限制" ,
+        "phone": "無",
+        "website": "https://maps.app.goo.gl/x8Y6ah123Um2FyNC9"
+    },
+    {
+        "name":"圈外咖啡專門店Kengai coffea",
+        "address": "新北市中和區安平路222號",
+        "coordinate":  {
+            "latitude":25.000227393069693, 
+            "longitude":121.51393565440287
+        },
+        "hours":"週一至週日10:00~22:00",
+        "lighting":"光線昏暗",
+        "noise": "音量適中",
+        "outlets":"插座充足",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0286688253",
+        "website": "https://maps.app.goo.gl/gy4sS2aNGSiGvF4RA"
+    },
+    {
+        "name":"思沐咖啡 ThinkThough Coffee",
+        "address": "台北市萬華區西園路二段281巷27號1樓",
+        "coordinate":  {
+            "latitude":25.02396149535382, 
+            "longitude":121.49284261072779
+        },
+        "hours":"週三至週一 13:00~19:30",
+        "lighting":"光線柔和",
+        "noise": "音量適中",
+        "outlets":"部分區域有插座",
+        "seating": "經常有空位",
+        "timeLimit":"無時間限制" ,
+        "phone": "0223036787",
+        "website": "https://maps.app.goo.gl/xtc2UnR6atAXNSYPA"
+    },
+    {
+        "name":"木白甜點咖啡店",
+        "address": "台北市中正區林森北路9巷23-2號",
+        "coordinate":  {
+            "latitude":25.045766798040653, 
+            "longitude":121.52507780887898
+        },
+        "hours":"週一至週日12:00~21:00",
+        "lighting":"光線柔和",
+        "noise": "有些吵雜",
+        "outlets":"插座充足",
+        "seating": "偶爾需要等待",
+        "timeLimit":"客滿才限時" ,
+        "phone": "0223918671",
+        "website": "https://maps.app.goo.gl/Zn72jcQYmtmyCfBo7"
+    },
+    {
+      "name":"4F劇場咖啡 古亭店",
+      "address": "台北市中正區羅斯福路二段30巷13號",
+      "coordinate":  {
+          "latitude":25.027987214990535, 
+          "longitude":121.52089877998236
+      },
+      "hours":"週一至週日11:00~19:00",
+      "lighting":"光線柔和",
+      "noise": "音量適中",
+      "outlets":"部分區域有插座",
+      "seating": "經常有空位",
+      "timeLimit":"客滿才限時" ,
+      "website": "https://maps.app.goo.gl/S4CVhW6DpHb86rZJ7"
+    }
+  ]
+} 

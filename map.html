@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeting 網頁地圖</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mapstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+</head>
+<body>
+    <div class="map-container">
+        <div class="back-to-home">
+            <a href="index.html" class="back-to-home-button">
+                <i class="fas fa-home"></i>
+            </a>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        function initMap() {
+            const taipei = { lat: 25.0330, lng: 121.5654 };
+            
+            const mapStyle = [
+            {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e9e9e9"
+            },
+            {
+                "lightness": 17
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f5f5"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 17
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 29
+            },
+            {
+                "weight": 0.2
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 18
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f5f5"
+            },
+            {
+                "lightness": 21
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#dedede"
+            },
+            {
+                "lightness": 21
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "saturation": 36
+            },
+            {
+                "color": "#333333"
+            },
+            {
+                "lightness": 40
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            },
+            {
+                "lightness": 19
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#fefefe"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#fefefe"
+            },
+            {
+                "lightness": 17
+            },
+            {
+                "weight": 1.2
+            }
+        ]
+    }
+            ];
+            
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 11,
+                center: taipei,
+                styles: mapStyle,
+                disableDefaultUI: true,
+                zoomControl: true,
+                zoomControlOptions: {
+                    position: google.maps.ControlPosition.RIGHT_BOTTOM
+                }
+            });
+
+            let currentInfoWindow = null;
+
+            const statusColors = {
+                outlets: {
+                    '插座充足': '#4CAF50',      // 綠色
+                    '部分區域有插座': '#FFC107', // 黃色
+                    '插座數量有限': '#F44336'    // 紅色
+                },
+                timeLimit: {
+                    '無時間限制': '#4CAF50',
+                    '客滿才限時': '#FFC107',
+                    '有時間限制': '#F44336'
+                },
+                lighting: {
+                    '光線明亮': '#4CAF50',
+                    '光線柔和': '#FFC107',
+                    '光線昏暗': '#F44336'
+                },
+                noise: {
+                    '安靜環境': '#4CAF50',
+                    '音量適中': '#FFC107',
+                    '有些吵雜': '#F44336'
+                },
+                seating: {
+                    '經常有空位': '#4CAF50',
+                    '偶爾需要等待': '#FFC107'
+                }
+            };
+
+            fetch('./cafes.json')
+                .then(response => response.json())
+                .then(data => {
+                    const markers = [];
+                    
+                    data.cafes.forEach(cafe => {
+                        console.log('Cafe data:', cafe);
+
+                        const marker = new google.maps.Marker({
+                            position: {
+                                lat: cafe.coordinate.latitude,
+                                lng: cafe.coordinate.longitude
+                            },
+                            map: map,
+                            title: cafe.name,
+                            icon: {
+                                path: google.maps.SymbolPath.CIRCLE,
+                                fillColor: "#00b386",
+                                fillOpacity: 1,
+                                strokeWeight: 1,
+                                strokeColor: "#ffffff",
+                                scale: 8
+                            }
+                        });
+
+                        const infoContent = `
+                            <div class="cafe-info">
+                                <div class="cafe-header">
+                                    <h3>${cafe.name || '未知名稱'}</h3>
+                                </div>
+                                <div class="cafe-details">
+                                    <p><i class="fas fa-clock" style="color: #666666"></i> ${cafe.hours || '未提供營業時間'}</p>
+                                    <p><i class="fas fa-map-marker-alt" style="color: #666666"></i> ${cafe.address || '未提供地址'}</p>
+                                    ${cafe.phone ? `<p><i class="fas fa-phone" style="color: #666666"></i> ${cafe.phone}</p>` : ''}
+                                    <p><i class="fas fa-plug" style="color: ${statusColors.outlets[cafe.outlets]}"></i> ${cafe.outlets || '未提供資訊'}</p>
+                                    <p><i class="fas fa-volume-up" style="color: ${statusColors.noise[cafe.noise]}"></i> ${cafe.noise || '未提供資訊'}</p>
+                                    <p><i class="fas fa-sun" style="color: ${statusColors.lighting[cafe.lighting]}"></i> ${cafe.lighting || '未提供資訊'}</p>
+                                    <p><i class="fas fa-chair" style="color: ${statusColors.seating[cafe.seating]}"></i> ${cafe.seating || '未提供資訊'}</p>
+                                    <p><i class="fas fa-hourglass-half" style="color: ${statusColors.timeLimit[cafe.timeLimit]}"></i> ${cafe.timeLimit || '未提供資訊'}</p>
+                                    ${cafe.website ? `
+                                        <p class="cafe-link">
+                                            <a href="${cafe.website}" target="_blank">
+                                                <i class="fas fa-external-link-alt"></i> 查看店家資訊
+                                            </a>
+                                        </p>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        `;
+
+                        const infoWindow = new google.maps.InfoWindow({
+                            content: infoContent,
+                            maxWidth: 280
+                        });
+
+                        marker.addListener('click', () => {
+                            if (currentInfoWindow) {
+                                currentInfoWindow.close();
+                            }
+                            infoWindow.open(map, marker);
+                            currentInfoWindow = infoWindow;
+                        });
+
+                        markers.push(marker);
+                    });
+
+                    const markerCluster = new markerClusterer.MarkerClusterer({
+                        map,
+                        markers,
+                        algorithm: new markerClusterer.SuperClusterAlgorithm({
+                            radius: 60
+                        }),
+                        renderer: {
+                            render: ({ count, position }) => {
+                                return new google.maps.Marker({
+                                    position,
+                                    label: {
+                                        text: String(count),
+                                        color: "#ffffff",
+                                        fontSize: "13px"
+                                    },
+                                    icon: {
+                                        path: google.maps.SymbolPath.CIRCLE,
+                                        scale: 20,
+                                        fillColor: "#00b386",  // 改為與單個標記點相同的顏色
+                                        fillOpacity: 0.9,
+                                        strokeWeight: 2,
+                                        strokeColor: "#ffffff"
+                                    },
+                                    zIndex: Number(google.maps.Marker.MAX_ZINDEX) + count
+                                });
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGC0-g81hCy9S2w8c9pbIwqccbaw75dNQ&callback=initMap">
+    </script>
+</body>
+</html> 
