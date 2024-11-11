@@ -1,64 +1,136 @@
 #map {
-    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
+    z-index: 1;
 }
 
 .map-container {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .back-to-home {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 1002;
+    pointer-events: auto;
 }
 
 .back-to-home-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 179, 134, 0.9);
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 50%;
-    font-size: 1.2rem;
+    font-size: 18px;
     transition: all 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .back-to-home-button:hover {
-    background-color: #00b386;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 1);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .cafe-info {
-    padding: 12px;
+    padding: 20px;
     font-family: 'Noto Sans TC', sans-serif;
-    max-width: 250px;
+    max-width: 320px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.cafe-info h3 {
+.cafe-info .cafe-header h3 {
     margin: 0;
+    font-size: 1.3rem;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.cafe-details {
+    display: grid;
+    gap: 12px;
 }
 
 .cafe-details p {
-    margin: 4px 0;
-    color: #666;
-    font-size: 0.85rem;
+    margin: 0;
     display: flex;
     align-items: center;
-    padding: 4px 0;
+    font-size: 0.9rem;
 }
 
 .cafe-details p i {
-    margin-right: 8px;
-    width: 16px;
-    text-align: center;
+    width: 24px;
+    margin-right: 16px;
+    font-size: 1.1rem;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.status-item i {
+    width: 24px;
+    margin-right: 16px;
+    font-size: 1.1rem;
+}
+
+.status-item:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.cafe-link {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cafe-link a {
+    display: inline-flex;
+    align-items: center;
+    color: #00B386;
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 10px 16px;
+    background: rgba(0, 179, 134, 0.15);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.cafe-link a:hover {
+    background: rgba(0, 179, 134, 0.25);
+    transform: translateY(-1px);
+}
+
+.cafe-link a i {
+    margin-right: 12px;
 }
 
 .cafe-features, .cafe-status {
@@ -105,7 +177,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .cafe-header h3 {
@@ -153,5 +227,327 @@
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+/* 修改控制面板樣式 */
+.controls-panel {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.search-box {
+    position: relative;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-button {
+    background-color: #00b386;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #009670;
+}
+
+.search-box > i {
+    display: none;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.filters select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filters select:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.filters select:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 新增篩選區塊樣式 */
+.filter-section {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.filter-button {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 179, 134, 0.3);
+    color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.filter-button:hover {
+    background-color: rgba(0, 179, 134, 0.4);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filter-button.reset {
+    background-color: rgba(102, 102, 102, 0.3);
+}
+
+.filter-button.reset:hover {
+    background-color: rgba(102, 102, 102, 0.4);
+}
+
+.filter-button i {
+    font-size: 12px;
+}
+
+/* 頂部搜尋欄樣式 */
+.search-panel {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    padding-top: 20px;
+    transform: translateX(-50%);
+    z-index: 1001;
+    width: 400px;
+    max-width: calc(100% - 140px);
+}
+
+.search-box {
+    background: rgba(0, 0, 0, 0.55);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 24px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search-button {
+    padding: 0 20px;
+    background: transparent;
+    border: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* 篩選切換按鈕樣式 */
+.filter-toggle {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 1001;
+}
+
+.filter-toggle-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.filter-toggle-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* 篩選面板樣式 */
+.filter-panel {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    transform: translateX(120%);
+    transition: transform 0.3s ease;
+}
+
+.filter-panel.show {
+    transform: translateX(0);
+}
+
+/* 下拉選單樣式 */
+.filters select option {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+}
+
+/* 選項樣式 */
+.filters select option {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+}
+
+/* Google Maps Info Window 自義樣式 */
+.gm-style-iw {
+    padding: 0 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.gm-style-iw-d {
+    overflow: hidden !important;
+    padding: 0 !important;
+}
+
+.gm-style-iw-t::after {
+    display: none;
+}
+
+/* 關閉按鈕樣式 */
+.gm-ui-hover-effect {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 50% !important;
+    padding: 6px !important;
+    margin: 8px !important;
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.gm-ui-hover-effect img {
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 !important;
+    opacity: 0.8 !important;
+    filter: grayscale(1) invert(1) !important;
+}
+
+.gm-ui-hover-effect:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.gm-ui-hover-effect:hover img {
+    opacity: 1 !important;  /* 懸停時提高透明度 */
+}
+
+/* Info Window 樣式 */
+.cafe-info {
+    padding: 20px;
+    font-family: 'Noto Sans TC', sans-serif;
+    max-width: 320px;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 移除 Info Window 的預設樣式 */
+.gm-style-iw.gm-style-iw-c {
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    max-width: none !important;
+}
+
+.gm-style-iw-d {
+    overflow: hidden !important;
+    padding: 0 !important;
+    max-width: none !important;
 }
   
