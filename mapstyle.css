@@ -21,20 +21,16 @@
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #666666;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     border-radius: 50%;
     font-size: 1.2rem;
     transition: all 0.3s ease;
-    border: none;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .back-to-home-button:hover {
-    background-color: #ffffff;
-    color: #333333;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 .cafe-info {
@@ -131,5 +127,28 @@
 
 .close-button:hover {
     color: #333;
+}
+
+.coming-soon-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    position: relative;
+}
+
+.coming-soon-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.coming-soon-text {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
   
