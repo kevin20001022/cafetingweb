@@ -737,4 +737,18 @@
     font-size: 0.9rem;
     font-weight: 500;
 }
+
+/* Marker 標籤樣式 */
+.marker-label {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 4px 8px;
+    border-radius: 8px;
+    white-space: nowrap;
+    margin-top: -30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
   

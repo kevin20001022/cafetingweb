@@ -498,6 +498,16 @@
                     data.cafes.forEach(cafe => {
                         console.log('Cafe data:', cafe);
 
+                        // 創建標籤
+                        const label = {
+                            text: cafe.name,
+                            color: '#FFFFFF',
+                            fontSize: '12px',
+                            className: 'marker-label',
+                            // 初始時隱藏標籤
+                            visible: false
+                        };
+
                         const marker = new google.maps.Marker({
                             position: {
                                 lat: cafe.coordinate.latitude,
@@ -505,6 +515,7 @@
                             },
                             map: map,
                             title: cafe.name,
+                            label: label,
                             icon: {
                                 path: google.maps.SymbolPath.CIRCLE,
                                 fillColor: "#00b386",
@@ -515,7 +526,7 @@
                             }
                         });
 
-                        marker.cafe = cafe;  // 保存咖啡廳據
+                        marker.cafe = cafe;
                         allMarkers.push(marker);
 
                         const infoContent = `
@@ -637,6 +648,27 @@
                                 });
                             }
                         }
+                    });
+
+                    // 添加縮放事件監聽
+                    map.addListener('zoom_changed', () => {
+                        const zoom = map.getZoom();
+                        allMarkers.forEach(marker => {
+                            // 當縮放級別大於等於 16 時顯示標籤
+                            if (zoom >= 21) {
+                                if (marker.getLabel()) {
+                                    const label = marker.getLabel();
+                                    label.visible = true;
+                                    marker.setLabel(label);
+                                }
+                            } else {
+                                if (marker.getLabel()) {
+                                    const label = marker.getLabel();
+                                    label.visible = false;
+                                    marker.setLabel(label);
+                                }
+                            }
+                        });
                     });
                 })
                 .catch(error => console.error('Error:', error));
