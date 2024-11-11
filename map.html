@@ -282,7 +282,7 @@
                                     ${cafe.website ? `
                                         <p class="cafe-link">
                                             <a href="${cafe.website}" target="_blank">
-                                                <i class="fas fa-external-link-alt"></i> 查看店家資訊
+                                                <i class="fas fa-external-link-alt"></i> 查看店家��訊
                                             </a>
                                         </p>
                                     ` : ''}
@@ -338,8 +338,7 @@
                 .catch(error => console.error('Error:', error));
         }
     </script>
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGC0-g81hCy9S2w8c9pbIwqccbaw75dNQ&callback=initMap">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=${config.googleMapsApiKey}&callback=initMap">
     </script>
 </body>
 </html> 
