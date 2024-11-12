@@ -53,7 +53,7 @@
 .cafe-info {
     padding: 15px;
     font-family: 'Noto Sans TC', sans-serif;
-    max-width: 280px;
+    width: 380px;
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(8px);
@@ -62,49 +62,76 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.cafe-info .cafe-header h3 {
-    margin: 0;
-    font-size: 1.1rem;
-    color: #ffffff !important;
-    font-weight: 600;
-    margin-bottom: 8px;
+.cafe-basic-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.cafe-details {
-    display: grid;
-    gap: 12px;
+.cafe-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
 }
 
-.cafe-details p {
-    margin: 4px 0;
+.cafe-address {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cafe-hours {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.info-item {
     display: flex;
     align-items: center;
+    gap: 8px;
     font-size: 0.9rem;
 }
 
-.cafe-details p i {
-    width: 24px;
-    margin-right: 16px;
-    font-size: 1.1rem;
+.info-item i {
+    width: 16px;
+    color: #00b386;
+}
+
+.cafe-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.details-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 
 .status-item {
     display: flex;
     align-items: center;
-    padding: 10px 14px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 8px;
-    transition: all 0.3s ease;
+    gap: 8px;
+    font-size: 0.85rem;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
 }
 
-.status-item i {
-    width: 24px;
-    margin-right: 16px;
-    font-size: 1.1rem;
+.website-link a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #00b386;
+    text-decoration: none;
+    width: 100%;
 }
 
-.status-item:hover {
-    background: rgba(255, 255, 255, 0.12);
+.website-link a:hover {
+    text-decoration: underline;
 }
 
 .cafe-link {
@@ -596,13 +623,85 @@
 .cafe-info {
     padding: 15px;
     font-family: 'Noto Sans TC', sans-serif;
-    max-width: 280px;
+    width: 380px;
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cafe-basic-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cafe-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.cafe-address {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cafe-hours {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.info-item i {
+    width: 16px;
+    color: #00b386;
+}
+
+.cafe-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.details-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+}
+
+.website-link a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #00b386;
+    text-decoration: none;
+    width: 100%;
+}
+
+.website-link a:hover {
+    text-decoration: underline;
 }
 
 /* 移除 Info Window 的預設樣式 */
