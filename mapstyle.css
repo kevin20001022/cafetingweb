@@ -869,4 +869,76 @@
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.website-link a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #00b386;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.website-link a:hover {
+    color: #00cc99;
+}
+
+.website-link i {
+    font-size: 0.9rem;
+}
+
+.cafe-hours-container {
+    margin: 8px 0;
+}
+
+.cafe-hours {
+    background-color: rgba(0, 179, 134, 0.8);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+}
+
+.info-item i {
+    width: 16px;
+    color: #00b386;
+}
+
+.website-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #00b386;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-left: 16px;
+}
+
+.website-link:hover {
+    color: #00cc99;
+}
+
+.website-link i {
+    font-size: 0.9rem;
+    width: auto;
+}
   

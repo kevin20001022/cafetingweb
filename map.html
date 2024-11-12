@@ -534,10 +534,20 @@
                                 <div class="cafe-basic-info">
                                     <div class="cafe-name">${cafe.name}</div>
                                     <div class="cafe-address">${cafe.address}</div>
-                                    <div class="cafe-hours">${cafe.hours || '未提供營業時間'}</div>
-                                    <div class="info-item">
-                                        <i class="fas fa-phone"></i>
-                                        <span>${cafe.phone || '未提供資訊'}</span>
+                                    <div class="cafe-hours-container">
+                                        <div class="cafe-hours">${cafe.hours || '未提供營業時間'}</div>
+                                    </div>
+                                    <div class="contact-row">
+                                        <div class="info-item">
+                                            <i class="fas fa-phone"></i>
+                                            <span>${cafe.phone || '未提供資訊'}</span>
+                                            ${cafe.website ? `
+                                                <a href="${cafe.website}" target="_blank" class="website-link">
+                                                    <i class="fas fa-external-link-alt"></i>
+                                                    <span>詳細資訊</span>
+                                                </a>
+                                            ` : ''}
+                                        </div>
                                     </div>
                                 </div>
                                 
@@ -566,14 +576,6 @@
                                             <i class="fas fa-hourglass-half" style="color: ${statusColors.timeLimit[cafe.timeLimit]}"></i>
                                             <span>${cafe.timeLimit || '未提供資訊'}</span>
                                         </div>
-                                        ${cafe.website ? `
-                                            <div class="status-item website-link">
-                                                <a href="${cafe.website}" target="_blank">
-                                                    <i class="fas fa-external-link-alt"></i>
-                                                    <span>查看網站</span>
-                                                </a>
-                                            </div>
-                                        ` : '<div class="status-item"></div>'}
                                     </div>
                                 </div>
                             </div>
