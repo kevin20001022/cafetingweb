@@ -51,22 +51,23 @@
 }
 
 .cafe-info {
-    padding: 20px;
+    padding: 15px;
     font-family: 'Noto Sans TC', sans-serif;
-    max-width: 320px;
+    max-width: 280px;
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border-radius: 16px;
+    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .cafe-info .cafe-header h3 {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #ffffff !important;
     font-weight: 600;
+    margin-bottom: 8px;
 }
 
 .cafe-details {
@@ -75,7 +76,7 @@
 }
 
 .cafe-details p {
-    margin: 0;
+    margin: 4px 0;
     display: flex;
     align-items: center;
     font-size: 0.9rem;
@@ -547,42 +548,60 @@
     display: none;
 }
 
-/* 關閉按鈕樣式 */
+/* 修改 Info Window 容器樣式 */
+.gm-style-iw.gm-style-iw-c {
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    max-width: none !important;
+    border-radius: 12px !important;
+}
+
+/* 修改關閉按鈕樣式 */
 .gm-ui-hover-effect {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
     border-radius: 50% !important;
     padding: 6px !important;
-    margin: 8px !important;
+    margin: 6px !important;
     top: 0 !important;
     right: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    opacity: 1 !important;
+    z-index: 10 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
+/* 修改關閉按鈕圖示樣式 */
 .gm-ui-hover-effect img {
-    width: 16px !important;
-    height: 16px !important;
+    width: 12px !important;
+    height: 12px !important;
     margin: 0 !important;
-    opacity: 0.8 !important;
-    filter: grayscale(1) invert(1) !important;
+    opacity: 1 !important;
+    filter: invert(1) !important;
+    display: block !important;
 }
 
+/* 關閉按鈕懸停效果 */
 .gm-ui-hover-effect:hover {
-    background-color: rgba(0, 0, 0, 0.7) !important;
-}
-
-.gm-ui-hover-effect:hover img {
-    opacity: 1 !important;  /* 懸停時提高透明度 */
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    transform: scale(1.1);
 }
 
 /* Info Window 樣式 */
 .cafe-info {
-    padding: 20px;
+    padding: 15px;
     font-family: 'Noto Sans TC', sans-serif;
-    max-width: 320px;
+    max-width: 280px;
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    border-radius: 16px;
+    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 

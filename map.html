@@ -670,6 +670,13 @@
                             }
                         });
                     });
+
+                    // 添加地圖點擊事件
+                    map.addListener('click', function() {
+                        if (currentInfoWindow) {
+                            currentInfoWindow.close();
+                        }
+                    });
                 })
                 .catch(error => console.error('Error:', error));
         }
