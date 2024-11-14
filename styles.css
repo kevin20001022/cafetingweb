@@ -448,3 +448,28 @@ body {
     background-color: #00B386;
     color: white;
 }
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(-1px);
+}

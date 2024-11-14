@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我們 - Cafeting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Noto Sans TC', sans-serif;
+            background: linear-gradient(to bottom, #1a1a1a, #2a2a2a);
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
+        }
+
+        .top-nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 20px;
+            z-index: 1000;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: rgba(255, 255, 255, 1);
+            transform: translateY(-1px);
+        }
+
+        .about-container {
+            min-height: 100vh;
+            padding: 100px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-title {
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        .story-section {
+            margin-bottom: 40px;
+        }
+
+        .story-section p {
+            margin-bottom: 24px;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        .support-section {
+            margin-top: 40px;
+            text-align: left;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .support-text {
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .coffee-link {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #00b386;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+        }
+
+        .coffee-link:hover {
+            background: #00cc99;
+            transform: translateY(-1px);
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-links {
+            margin-bottom: 10px;
+        }
+
+        .footer-link, .footer-email-link {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            margin: 0 10px;
+            transition: all 0.3s ease;
+        }
+
+        .footer-divider {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        .footer-copyright {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">首頁</a>
+            <a href="https://apps.apple.com/tw/app/cafeting/id6737536512" class="nav-link">下載 App</a>
+            <a href="map.html" class="nav-link">網頁地圖</a>
+        </div>
+    </nav>
+
+    <div class="about-container">
+        <h1 class="about-title">關於</h1>
+        <div class="story-section">
+            <p>還記得那些日子，我總喜歡窩在咖啡廳裡度過一個下午。一杯咖啡、一張小桌、筆電擺好，就能在那舒適的環境裡找到難得的專注。撲鼻而來的咖啡香令人放鬆，音樂與咖啡機的嗡鳴交織，不過分安靜，也不致於讓人分心。那些日子裡，我在這些角落裡放下了時間，留下了回憶。</p>
+            
+            <p>人們不太說話，但彼此眼睛裡都閃著光，我熱愛這個充滿動力及幹勁的環境。咖啡廳就像是城市裡的一個安全港口，這裡接納每個人的故事，無論來自哪裡，無論要去往哪裡。</p>
+            
+            <p>也因為這些美好的片刻，我萌生了設計 Cafeting 的想法。我希望那些跟我一樣熱愛在咖啡廳找靈感、找專注的人，能透過這個 app 輕鬆找到合適的場所。</p>
+            
+            <p>每一間咖啡廳都有屬於它的氛圍和故事，Cafeting 不只是提供資訊，而是期望幫助大家找到那份適合自己、能讓人安心的空間。</p>
+            
+            <p>Cafeting 為每個獨特的瞬間而生，願每個人，都能在城市裡找到屬於你的角落。</p>
+        </div>
+
+        <div class="support-section">
+            <span class="support-text">如果願意支持我們，就請我們喝杯咖啡吧！</span>
+            <a href="https://buymeacoffee.com/cafeting" target="_blank" class="coffee-link">☕</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="privacy.html" class="footer-link">隱私權政策</a>
+                <span class="footer-divider">|</span>
+                <a href="mailto:cafetingtw@gmail.com" class="footer-email-link">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </div>
+            <div class="footer-copyright">
+                © 2024 Cafeting. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
